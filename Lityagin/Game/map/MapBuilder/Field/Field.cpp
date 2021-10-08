@@ -1,23 +1,41 @@
 #include "Field.h"
 
 Field::Field(){
-    cells = new Cell**[Size];
+    cells = new Cell*[Size];
     for(int i = 0; i < Size; i++){
-        cells[i] = new Cell*[Size];
+        cells[i] = new Cell[Size];
     }
 }
 
-Field::~Field(){
-    for(int i = 0; i < Size; i++){
-        delete cells[i];
+Field::Field(const Field& other):Field(){
+    for(int i = 0; i < Size; i++) {
+        for (int j = 0; j < Size; j++) {
+            cells[i][j] = other.cells[i][j];
+        }
     }
-    delete cells;
+}
+
+Field& Field::operator=(const Field& other) {
+    if(this != &other){
+        //*this = Field();
+        for(int i = 0; i < Size; i++) {
+            for (int j = 0; j < Size; j++) {
+                this->cells[i][j] = other.cells[i][j];
+
+            }
+        }
+    }
+    return *this;
+}
+
+Field::~Field(){
+    delete[] cells;
 }
 
 void Field::DrawCells(sf::RenderWindow *window) {
     for(int i = 0; i < Size; i++){
         for(int j = 0; j < Size; j++){
-            window->draw(*this->cells[i][j]->sprite);
+            window->draw(*this->cells[i][j].GetSprite());
         }
     }
 }

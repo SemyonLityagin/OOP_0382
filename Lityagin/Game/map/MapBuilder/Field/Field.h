@@ -8,8 +8,10 @@
 
 class Field{
 public:
-    Cell*** cells;
+    Cell** cells;
     Field();
+    Field(const Field& other);
+    Field& operator = (const Field& other);
     ~Field();
     void DrawCells(sf::RenderWindow* window);
 };

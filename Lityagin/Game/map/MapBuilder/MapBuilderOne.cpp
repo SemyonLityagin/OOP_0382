@@ -13,26 +13,36 @@ void MapBuilderOne::Reset(){
 void MapBuilderOne::BuildFloor() {
     for(int i = 0; i < Size; i++){
         for(int j = 0; j < Size; j++){
-            field->cells[i][j] = new Cell(i, j, FloorPNG);
+            field->cells[i][j].SetTexture(FloorPNG);
+            field->cells[i][j].SetPosition(i, j);
         }
     }
 }
 
 void MapBuilderOne::BuildWalls() {
     for(int i = 0; i < Size; i++) {
-        field->cells[0][i] = new Cell(0, i, WallPNG);
-        field->cells[Size - 1][i] = new Cell(Size - 1, i, WallPNG);
-        field->cells[i][0] = new Cell(i, 0, WallPNG);
-        field->cells[i][Size - 1] = new Cell(i, Size - 1, WallPNG);
+        field->cells[0][i].SetTexture(WallPNG);
+        field->cells[0][i].SetPosition(0, i);
+
+        field->cells[Size - 1][i].SetTexture(WallPNG);
+        field->cells[Size - 1][i].SetPosition(Size-1, i);
+
+        field->cells[i][0].SetTexture(WallPNG);
+        field->cells[i][0].SetPosition(i, 0);
+
+        field->cells[i][Size - 1].SetTexture(WallPNG);
+        field->cells[i][Size - 1].SetPosition(i, Size-1);
     }
 }
 
 void MapBuilderOne::BuildExit() {
-    field->cells[1][0] = new Cell(1, 0, ExitPNG);
+    field->cells[1][0].SetTexture(ExitPNG);
+    field->cells[1][0].SetPosition(1, 0);
 }
 
 void MapBuilderOne::BuildEnter() {
-    field->cells[Size-1][Size-2] = new Cell(Size-1, Size-2, EnterPNG);
+    field->cells[Size-1][Size-2].SetTexture(EnterPNG);
+    field->cells[Size-1][Size-2].SetPosition(Size-1, Size-2);
 }
 
 Field* MapBuilderOne::ReturnField() {

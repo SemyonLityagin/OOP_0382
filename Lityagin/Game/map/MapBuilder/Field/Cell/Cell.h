@@ -2,14 +2,20 @@
 #define GAME_CELL_H
 
 #include <SFML/Graphics.hpp>
+#include <cstring>
 using namespace sf;
 
 class Cell {
-public:
-    Texture* texture;
+private:
+    Texture texture;
     Sprite* sprite;
-    int x,y;
-    Cell(int PosX, int PosY, const std::string& filename);
+public:
+    Cell();
+    Cell(const Cell& other);
+    Cell& operator = (const Cell& other);
+    void SetTexture(const std::string& filename);
+    void SetPosition(int x, int y);
+    Sprite* GetSprite();
     ~Cell();
 };
 

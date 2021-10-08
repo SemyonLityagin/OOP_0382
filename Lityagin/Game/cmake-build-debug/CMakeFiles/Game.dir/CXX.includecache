@@ -24,17 +24,11 @@ map/MapBuilder/MapDirector.h
 map/MapBuilder/MapBuilderOne.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.h
 
-/home/cruelcookie/CLionProjects/Game/main.cpp
-Game.h
-/home/cruelcookie/CLionProjects/Game/Game.h
-
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
 SFML/Graphics.hpp
 -
-
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp
-Field.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
+cstring
+-
 
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
 SFML/Graphics.hpp
@@ -43,10 +37,6 @@ Cell/Cell.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
 
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
-
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.cpp
-MapBuilderOne.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.h
 
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.h
 MapBuilder.h
