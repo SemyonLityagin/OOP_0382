@@ -14,10 +14,11 @@ public:
     sf::Vector2i entry, exit;
     int width, height;
 
-    Floor();
+
     Floor(int width, int height);
     Floor(const Floor& other);
-    Floor& operator = (const Floor& other);
+    Floor& operator=(const Floor& other);
+    Floor& operator=(Floor&& other);
     void Draw_Floor(sf::RenderWindow* window);
     ~Floor();
 };
