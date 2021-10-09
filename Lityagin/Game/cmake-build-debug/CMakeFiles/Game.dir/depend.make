@@ -20,6 +20,9 @@ CMakeFiles/Game.dir/main.cpp.o: \
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o: \
  ../map/MapBuilder/Field/Cell/Cell.cpp \
  ../map/MapBuilder/Field/Cell/Cell.h
+CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o: \
+ ../map/MapBuilder/Field/Cell/IntObj.cpp \
+ ../map/MapBuilder/Field/Cell/IntObj.h
 CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o: \
  ../map/MapBuilder/Field/Cell/Cell.h \
  ../map/MapBuilder/Field/Field.cpp \

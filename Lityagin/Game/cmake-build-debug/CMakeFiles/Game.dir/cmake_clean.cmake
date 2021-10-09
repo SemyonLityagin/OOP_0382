@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/Game.cpp.o"
   "CMakeFiles/Game.dir/main.cpp.o"
   "CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o"
+  "CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o"
   "CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o"
   "CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o"
   "CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o"

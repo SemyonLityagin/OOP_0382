@@ -2,20 +2,17 @@
 using namespace sf;
 
 void Game::StartGame() {
-    RenderWindow window(VideoMode(400, 400), "Game!");
-    auto builder = new MapBuilderOne();
-    auto director = MapDirector(builder);
+    RenderWindow window(VideoMode(Size*40, Size*40), "Game!");
+    MapBuilderOne* builder = new MapBuilderOne();
+    MapDirector director = MapDirector(builder);
     director.ConstructMap();
     Field* field = builder->ReturnField();
     Field field2;
     field2 = *field;
     delete field;
-    Cell p1 = Cell();
-    p1.SetTexture("/home/cruelcookie/CLionProjects/Game/texture/CellStart.png");
-    p1.SetPosition(1,1);
-    Cell p2;
-    p2 = p1;
-    p2.SetPosition(3, 4);
+    if (field2.cells[2][2].IsMovable()) {
+        std::cout << "Yes, movable!" << std::endl;
+    }
     while(window.isOpen()){
         sf::Event event;
         while(window.pollEvent(event)){
@@ -24,8 +21,6 @@ void Game::StartGame() {
             }
         }
         field2.DrawCells(&window);
-        window.draw(*p1.GetSprite());
-        window.draw(*p2.GetSprite());
         window.display();
     }
     delete builder;

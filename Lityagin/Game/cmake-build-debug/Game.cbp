@@ -97,6 +97,12 @@
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp">
 			<Option target="Game"/>
 		</Unit>

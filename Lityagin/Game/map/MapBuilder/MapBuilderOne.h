@@ -5,10 +5,10 @@
 #include "Field/Field.h"
 #include "Field/Cell/Cell.h"
 
-#define FloorPNG "/home/cruelcookie/CLionProjects/Game/texture/Cell.png"
-#define EnterPNG "/home/cruelcookie/CLionProjects/Game/texture/CellStart.png"
-#define ExitPNG "/home/cruelcookie/CLionProjects/Game/texture/CellEnd.png"
-#define WallPNG "/home/cruelcookie/CLionProjects/Game/texture/CellWall.png"
+#define FloorPNG "../texture/Cell.png"
+#define EnterPNG "../texture/CellStart.png"
+#define ExitPNG "../texture/CellEnd.png"
+#define WallPNG "../texture/CellWall.png"
 
 class MapBuilderOne : public MapBuilder{
 private:

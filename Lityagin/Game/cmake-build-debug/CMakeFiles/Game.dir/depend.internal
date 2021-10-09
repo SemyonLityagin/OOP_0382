@@ -20,6 +20,9 @@ CMakeFiles/Game.dir/main.cpp.o
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o
  /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.cpp
  /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
+CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o
+ /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.cpp
+ /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.h
 CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o
  /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
  /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp

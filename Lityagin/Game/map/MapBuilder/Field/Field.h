@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include "Cell/Cell.h"
 
-#define Size 10
+#define Size 11
 
 class Field{
 public:
@@ -12,6 +12,8 @@ public:
     Field();
     Field(const Field& other);
     Field& operator = (const Field& other);
+    Field(Field&& other);
+    Field& operator = (Field&& other);
     ~Field();
     void DrawCells(sf::RenderWindow* window);
 };

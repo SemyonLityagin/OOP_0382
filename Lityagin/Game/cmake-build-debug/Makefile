@@ -201,6 +201,30 @@ map/MapBuilder/Field/Cell/Cell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.s
 .PHONY : map/MapBuilder/Field/Cell/Cell.cpp.s
 
+map/MapBuilder/Field/Cell/IntObj.o: map/MapBuilder/Field/Cell/IntObj.cpp.o
+.PHONY : map/MapBuilder/Field/Cell/IntObj.o
+
+# target to build an object file
+map/MapBuilder/Field/Cell/IntObj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o
+.PHONY : map/MapBuilder/Field/Cell/IntObj.cpp.o
+
+map/MapBuilder/Field/Cell/IntObj.i: map/MapBuilder/Field/Cell/IntObj.cpp.i
+.PHONY : map/MapBuilder/Field/Cell/IntObj.i
+
+# target to preprocess a source file
+map/MapBuilder/Field/Cell/IntObj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.i
+.PHONY : map/MapBuilder/Field/Cell/IntObj.cpp.i
+
+map/MapBuilder/Field/Cell/IntObj.s: map/MapBuilder/Field/Cell/IntObj.cpp.s
+.PHONY : map/MapBuilder/Field/Cell/IntObj.s
+
+# target to generate assembly for a file
+map/MapBuilder/Field/Cell/IntObj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.s
+.PHONY : map/MapBuilder/Field/Cell/IntObj.cpp.s
+
 map/MapBuilder/Field/Field.o: map/MapBuilder/Field/Field.cpp.o
 .PHONY : map/MapBuilder/Field/Field.o
 
@@ -315,6 +339,9 @@ help:
 	@echo "... map/MapBuilder/Field/Cell/Cell.o"
 	@echo "... map/MapBuilder/Field/Cell/Cell.i"
 	@echo "... map/MapBuilder/Field/Cell/Cell.s"
+	@echo "... map/MapBuilder/Field/Cell/IntObj.o"
+	@echo "... map/MapBuilder/Field/Cell/IntObj.i"
+	@echo "... map/MapBuilder/Field/Cell/IntObj.s"
 	@echo "... map/MapBuilder/Field/Field.o"
 	@echo "... map/MapBuilder/Field/Field.i"
 	@echo "... map/MapBuilder/Field/Field.s"
