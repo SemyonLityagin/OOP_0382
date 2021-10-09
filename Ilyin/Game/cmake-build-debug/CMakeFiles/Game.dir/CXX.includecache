@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/denis/CLionProjects/Game/Floor/Cell/Cell.h
+iostream
+/home/denis/CLionProjects/Game/Floor/Cell/iostream
+stdlib.h
+/home/denis/CLionProjects/Game/Floor/Cell/stdlib.h
+SFML/Graphics.hpp
+-
+
+/home/denis/CLionProjects/Game/Floor/Floor.cpp
+Floor.h
+/home/denis/CLionProjects/Game/Floor/Floor.h
+
+/home/denis/CLionProjects/Game/Floor/Floor.h
+Cell/Cell.h
+/home/denis/CLionProjects/Game/Floor/Cell/Cell.h
+
