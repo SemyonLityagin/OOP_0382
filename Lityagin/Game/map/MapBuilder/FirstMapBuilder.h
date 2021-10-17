@@ -1,5 +1,5 @@
-#ifndef GAME_MAPBUILDERONE_H
-#define GAME_MAPBUILDERONE_H
+#ifndef GAME_FIRSTMAPBUILDER_H
+#define GAME_FIRSTMAPBUILDER_H
 
 #include "MapBuilder.h"
 #include "Field/Field.h"
@@ -10,12 +10,12 @@
 #define ExitPNG "../texture/CellEnd.png"
 #define WallPNG "../texture/CellWall.png"
 
-class MapBuilderOne : public MapBuilder{
+class FirstMapBuilder : public MapBuilder{
 private:
     Field* field;
 public:
-    MapBuilderOne();
-    ~MapBuilderOne();
+    FirstMapBuilder();
+    ~FirstMapBuilder();
     void Reset();
     void BuildEnter() override;
     void BuildExit() override;
@@ -24,4 +24,4 @@ public:
     Field* ReturnField();
 };
 
-#endif //GAME_MAPBUILDERONE_H
+#endif //GAME_FIRSTMAPBUILDER_H

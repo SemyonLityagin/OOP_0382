@@ -109,16 +109,16 @@
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h">
-			<Option target="Game"/>
-		</Unit>
-		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.cpp">
-			<Option target="Game"/>
-		</Unit>
-		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.h">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.cpp">

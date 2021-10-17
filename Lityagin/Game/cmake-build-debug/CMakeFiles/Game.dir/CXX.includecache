@@ -21,30 +21,48 @@ map/MapBuilder/Field/Field.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
 map/MapBuilder/MapDirector.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.h
-map/MapBuilder/MapBuilderOne.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.h
+map/MapBuilder/FirstMapBuilder.h
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.h
+
+/home/cruelcookie/CLionProjects/Game/main.cpp
+Game.h
+/home/cruelcookie/CLionProjects/Game/Game.h
+
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.cpp
+Cell.h
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
 
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
-SFML/Graphics.hpp
--
 cstring
 -
+IntObj.h
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.h
+
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.h
+
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp
+Field.h
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
 
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
-SFML/Graphics.hpp
+iostream
 -
 Cell/Cell.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp
+FirstMapBuilder.h
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.h
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.h
 MapBuilder.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
 Field/Field.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
 Field/Cell/Cell.h
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
+
+/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
 
 /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.h
 MapBuilder.h

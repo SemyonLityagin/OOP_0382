@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/169/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/cruelcookie/CLionProjects/Game/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/164/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/169/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/164/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/169/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -249,6 +249,30 @@ map/MapBuilder/Field/Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.s
 .PHONY : map/MapBuilder/Field/Field.cpp.s
 
+map/MapBuilder/FirstMapBuilder.o: map/MapBuilder/FirstMapBuilder.cpp.o
+.PHONY : map/MapBuilder/FirstMapBuilder.o
+
+# target to build an object file
+map/MapBuilder/FirstMapBuilder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o
+.PHONY : map/MapBuilder/FirstMapBuilder.cpp.o
+
+map/MapBuilder/FirstMapBuilder.i: map/MapBuilder/FirstMapBuilder.cpp.i
+.PHONY : map/MapBuilder/FirstMapBuilder.i
+
+# target to preprocess a source file
+map/MapBuilder/FirstMapBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i
+.PHONY : map/MapBuilder/FirstMapBuilder.cpp.i
+
+map/MapBuilder/FirstMapBuilder.s: map/MapBuilder/FirstMapBuilder.cpp.s
+.PHONY : map/MapBuilder/FirstMapBuilder.s
+
+# target to generate assembly for a file
+map/MapBuilder/FirstMapBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s
+.PHONY : map/MapBuilder/FirstMapBuilder.cpp.s
+
 map/MapBuilder/MapBuilder.o: map/MapBuilder/MapBuilder.cpp.o
 .PHONY : map/MapBuilder/MapBuilder.o
 
@@ -272,30 +296,6 @@ map/MapBuilder/MapBuilder.s: map/MapBuilder/MapBuilder.cpp.s
 map/MapBuilder/MapBuilder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.s
 .PHONY : map/MapBuilder/MapBuilder.cpp.s
-
-map/MapBuilder/MapBuilderOne.o: map/MapBuilder/MapBuilderOne.cpp.o
-.PHONY : map/MapBuilder/MapBuilderOne.o
-
-# target to build an object file
-map/MapBuilder/MapBuilderOne.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o
-.PHONY : map/MapBuilder/MapBuilderOne.cpp.o
-
-map/MapBuilder/MapBuilderOne.i: map/MapBuilder/MapBuilderOne.cpp.i
-.PHONY : map/MapBuilder/MapBuilderOne.i
-
-# target to preprocess a source file
-map/MapBuilder/MapBuilderOne.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.i
-.PHONY : map/MapBuilder/MapBuilderOne.cpp.i
-
-map/MapBuilder/MapBuilderOne.s: map/MapBuilder/MapBuilderOne.cpp.s
-.PHONY : map/MapBuilder/MapBuilderOne.s
-
-# target to generate assembly for a file
-map/MapBuilder/MapBuilderOne.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.s
-.PHONY : map/MapBuilder/MapBuilderOne.cpp.s
 
 map/MapBuilder/MapDirector.o: map/MapBuilder/MapDirector.cpp.o
 .PHONY : map/MapBuilder/MapDirector.o
@@ -345,12 +345,12 @@ help:
 	@echo "... map/MapBuilder/Field/Field.o"
 	@echo "... map/MapBuilder/Field/Field.i"
 	@echo "... map/MapBuilder/Field/Field.s"
+	@echo "... map/MapBuilder/FirstMapBuilder.o"
+	@echo "... map/MapBuilder/FirstMapBuilder.i"
+	@echo "... map/MapBuilder/FirstMapBuilder.s"
 	@echo "... map/MapBuilder/MapBuilder.o"
 	@echo "... map/MapBuilder/MapBuilder.i"
 	@echo "... map/MapBuilder/MapBuilder.s"
-	@echo "... map/MapBuilder/MapBuilderOne.o"
-	@echo "... map/MapBuilder/MapBuilderOne.i"
-	@echo "... map/MapBuilder/MapBuilderOne.s"
 	@echo "... map/MapBuilder/MapDirector.o"
 	@echo "... map/MapBuilder/MapDirector.i"
 	@echo "... map/MapBuilder/MapDirector.s"

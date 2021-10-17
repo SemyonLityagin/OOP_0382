@@ -17,7 +17,6 @@ Field::Field(const Field& other):Field(){
 
 Field& Field::operator=(const Field& other) {
     if(this != &other){
-        //*this = Field();
         for(int i = 0; i < Size; i++) {
             for (int j = 0; j < Size; j++) {
                 this->cells[i][j] = other.cells[i][j];
@@ -47,14 +46,14 @@ Field& Field::operator = (Field&& other){
     return *this;
 }
 
+Cell** Field::GetCells() {
+    return cells;
+}
+
 Field::~Field(){
+    for(int i = 0; i < Size; i++){
+        delete[] cells[i];
+    }
     delete[] cells;
 }
 
-void Field::DrawCells(sf::RenderWindow *window) {
-    for(int i = 0; i < Size; i++){
-        for(int j = 0; j < Size; j++){
-            window->draw(this->cells[i][j].GetSprite());
-        }
-    }
-}

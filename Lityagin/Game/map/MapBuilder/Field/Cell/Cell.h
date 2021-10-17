@@ -1,10 +1,8 @@
 #ifndef GAME_CELL_H
 #define GAME_CELL_H
 
-#include <SFML/Graphics.hpp>
 #include <cstring>
-
-using namespace sf;
+#include "IntObj.h"
 /*
  * Cell type:
  *      Exit - 3
@@ -12,20 +10,19 @@ using namespace sf;
  *      Floor - 1
  *      Enter - 0
  */
+enum CellTypes {Enter, Floor, Wall, Exit};
+
 class Cell{
 private:
-    Texture texture;
-    Sprite sprite;
     int type;
+    IntObj* object;
 public:
     Cell();
     Cell(const Cell& other);
     Cell& operator = (const Cell& other);
-    void SetTexture(const std::string& filename);
-    void SetPosition(int x, int y);
-    void SetType(int value);
+    void SetType(CellTypes value);
+    int GetType();
     bool IsMovable();
-    Sprite GetSprite();
     ~Cell();
 };
 

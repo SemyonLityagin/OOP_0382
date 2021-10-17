@@ -3,16 +3,12 @@ using namespace sf;
 
 void Game::StartGame() {
     RenderWindow window(VideoMode(Size*40, Size*40), "Game!");
-    MapBuilderOne* builder = new MapBuilderOne();
+    FirstMapBuilder* builder = new FirstMapBuilder();
     MapDirector director = MapDirector(builder);
     director.ConstructMap();
     Field* field = builder->ReturnField();
-    Field field2;
-    field2 = *field;
-    delete field;
-    if (field2.cells[2][2].IsMovable()) {
-        std::cout << "Yes, movable!" << std::endl;
-    }
+    delete builder;
+
     while(window.isOpen()){
         sf::Event event;
         while(window.pollEvent(event)){
@@ -20,8 +16,48 @@ void Game::StartGame() {
                 window.close();
             }
         }
-        field2.DrawCells(&window);
+        DrawFieldOnWindow(field->GetCells(), &window);
         window.display();
     }
-    delete builder;
+    delete field;
+}
+
+void Game::DrawFieldOnWindow(Cell** cells, sf::RenderWindow *window) {
+    Texture texture;
+    Sprite sprite;
+    int number;
+    for(int i = 0; i < Size; i++){
+        for(int j = 0; j < Size; j++){
+            number = cells[i][j].GetType();
+            switch(number){
+                case 0: {
+                    texture.loadFromFile(EnterPNG);
+                    sprite = Sprite(texture);
+                    sprite.setPosition(i * 40, j * 40);
+                    break;
+                }
+                case 1: {
+                    texture.loadFromFile(FloorPNG);
+                    sprite = Sprite(texture);
+                    sprite.setPosition(i * 40, j * 40);
+                    break;
+                }
+                case 2: {
+                    texture.loadFromFile(WallPNG);
+                    sprite = Sprite(texture);
+                    sprite.setPosition(i * 40, j * 40);
+                    break;
+                }
+                case 3: {
+                    texture.loadFromFile(ExitPNG);
+                    sprite = Sprite(texture);
+                    sprite.setPosition(i * 40, j * 40);
+                    break;
+                }
+                default:
+                    std::cout << "Not correct type in " << i << " " << j;
+            }
+            window->draw(sprite);
+        }
+    }
 }

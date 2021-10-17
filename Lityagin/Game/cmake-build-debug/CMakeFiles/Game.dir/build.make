@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/169/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -118,18 +118,18 @@ CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.cpp -o CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s
 
-CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o: CMakeFiles/Game.dir/flags.make
-CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o: ../map/MapBuilder/MapBuilderOne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.cpp
+CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o: ../map/MapBuilder/FirstMapBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp
 
-CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.cpp > CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.i
+CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp > CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i
 
-CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilderOne.cpp -o CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.s
+CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp -o CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s
 
 CMakeFiles/Game.dir/Game.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Game.cpp.o: ../Game.cpp
@@ -176,7 +176,7 @@ Game_OBJECTS = \
 "CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o" \
 "CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o" \
 "CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o" \
-"CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o" \
+"CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o" \
 "CMakeFiles/Game.dir/Game.cpp.o" \
 "CMakeFiles/Game.dir/main.cpp.o" \
 "CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o"
@@ -188,7 +188,7 @@ Game: CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o
 Game: CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o
 Game: CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o
 Game: CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o
-Game: CMakeFiles/Game.dir/map/MapBuilder/MapBuilderOne.cpp.o
+Game: CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o
 Game: CMakeFiles/Game.dir/Game.cpp.o
 Game: CMakeFiles/Game.dir/main.cpp.o
 Game: CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o
