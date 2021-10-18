@@ -2,6 +2,7 @@
 #define GAME_CELL_H
 
 #include <cstring>
+#include <iostream>
 #include "IntObj.h"
 /*
  * Cell type:
@@ -20,6 +21,8 @@ public:
     Cell();
     Cell(const Cell& other);
     Cell& operator = (const Cell& other);
+    Cell(Cell&& other);
+    Cell& operator = (Cell&& other);
     void SetType(CellTypes value);
     int GetType();
     bool IsMovable();

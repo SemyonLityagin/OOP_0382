@@ -9,7 +9,8 @@ CMakeFiles/Game.dir/Game.cpp.o: \
  ../map/MapBuilder/Field/Field.h \
  ../map/MapBuilder/FirstMapBuilder.h \
  ../map/MapBuilder/MapBuilder.h \
- ../map/MapBuilder/MapDirector.h
+ ../map/MapBuilder/MapDirector.h \
+ ../map/MapBuilder/SecondMapBuilder.h
 CMakeFiles/Game.dir/main.cpp.o: \
  ../Game.h \
  ../main.cpp \
@@ -18,7 +19,8 @@ CMakeFiles/Game.dir/main.cpp.o: \
  ../map/MapBuilder/Field/Field.h \
  ../map/MapBuilder/FirstMapBuilder.h \
  ../map/MapBuilder/MapBuilder.h \
- ../map/MapBuilder/MapDirector.h
+ ../map/MapBuilder/MapDirector.h \
+ ../map/MapBuilder/SecondMapBuilder.h
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o: \
  ../map/MapBuilder/Field/Cell/Cell.cpp \
  ../map/MapBuilder/Field/Cell/Cell.h \
@@ -45,3 +47,10 @@ CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o: \
  ../map/MapBuilder/MapBuilder.h \
  ../map/MapBuilder/MapDirector.cpp \
  ../map/MapBuilder/MapDirector.h
+CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o: \
+ ../map/MapBuilder/Field/Cell/Cell.h \
+ ../map/MapBuilder/Field/Cell/IntObj.h \
+ ../map/MapBuilder/Field/Field.h \
+ ../map/MapBuilder/MapBuilder.h \
+ ../map/MapBuilder/SecondMapBuilder.cpp \
+ ../map/MapBuilder/SecondMapBuilder.h

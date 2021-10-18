@@ -127,6 +127,12 @@
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

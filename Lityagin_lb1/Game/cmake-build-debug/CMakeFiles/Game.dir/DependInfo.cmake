@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o"
   "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o"
   "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o"
+  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

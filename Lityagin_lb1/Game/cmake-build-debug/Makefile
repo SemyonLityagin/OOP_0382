@@ -321,6 +321,30 @@ map/MapBuilder/MapDirector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s
 .PHONY : map/MapBuilder/MapDirector.cpp.s
 
+map/MapBuilder/SecondMapBuilder.o: map/MapBuilder/SecondMapBuilder.cpp.o
+.PHONY : map/MapBuilder/SecondMapBuilder.o
+
+# target to build an object file
+map/MapBuilder/SecondMapBuilder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o
+.PHONY : map/MapBuilder/SecondMapBuilder.cpp.o
+
+map/MapBuilder/SecondMapBuilder.i: map/MapBuilder/SecondMapBuilder.cpp.i
+.PHONY : map/MapBuilder/SecondMapBuilder.i
+
+# target to preprocess a source file
+map/MapBuilder/SecondMapBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.i
+.PHONY : map/MapBuilder/SecondMapBuilder.cpp.i
+
+map/MapBuilder/SecondMapBuilder.s: map/MapBuilder/SecondMapBuilder.cpp.s
+.PHONY : map/MapBuilder/SecondMapBuilder.s
+
+# target to generate assembly for a file
+map/MapBuilder/SecondMapBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.s
+.PHONY : map/MapBuilder/SecondMapBuilder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -354,6 +378,9 @@ help:
 	@echo "... map/MapBuilder/MapDirector.o"
 	@echo "... map/MapBuilder/MapDirector.i"
 	@echo "... map/MapBuilder/MapDirector.s"
+	@echo "... map/MapBuilder/SecondMapBuilder.o"
+	@echo "... map/MapBuilder/SecondMapBuilder.i"
+	@echo "... map/MapBuilder/SecondMapBuilder.s"
 .PHONY : help
 
 

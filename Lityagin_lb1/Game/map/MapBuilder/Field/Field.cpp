@@ -7,20 +7,32 @@ Field::Field(){
     }
 }
 
-Field::Field(const Field& other):Field(){
+Field::Field(const Field& other){
+    this->cells = new Cell*[Size];
+    for(int i = 0; i < Size; i++){
+        this->cells[i] = new Cell[Size];
+    }
     for(int i = 0; i < Size; i++) {
         for (int j = 0; j < Size; j++) {
-            cells[i][j] = other.cells[i][j];
+            this->cells[i][j] = other.cells[i][j];
         }
     }
 }
 
 Field& Field::operator=(const Field& other) {
     if(this != &other){
+        for(int i = 0; i < Size; i++){
+            delete[] this->cells[i];
+        }
+        delete[] this->cells;
+
+        this->cells = new Cell*[Size];
+        for(int i = 0; i < Size; i++){
+            this->cells[i] = new Cell[Size];
+        }
         for(int i = 0; i < Size; i++) {
             for (int j = 0; j < Size; j++) {
                 this->cells[i][j] = other.cells[i][j];
-
             }
         }
     }
@@ -28,20 +40,12 @@ Field& Field::operator=(const Field& other) {
 }
 
 Field::Field(Field &&other) {
-    for(int i = 0; i < Size; i++){
-        for(int j = 0; j < Size; j++){
-            std::swap(cells[i][j], other.cells[i][j]);
-        }
-    }
+    std::swap(cells, other.cells);
 }
 
 Field& Field::operator = (Field&& other){
     if(this != &other){
-        for(int i = 0; i < Size; i++){
-            for(int j = 0; j < Size; j++){
-                std::swap(this->cells[i][j], other.cells[i][j]);
-            }
-        }
+        std::swap(this->cells, other.cells);
     }
     return *this;
 }
