@@ -7,7 +7,6 @@
 #include "map/MapBuilder/Field/Field.h"
 #include "map/MapBuilder/MapDirector.h"
 #include "map/MapBuilder/FirstMapBuilder.h"
-#include "map/MapBuilder/SecondMapBuilder.h"
 
 class Game{
 public:

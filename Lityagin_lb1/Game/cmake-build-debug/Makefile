@@ -57,10 +57,10 @@ RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cruelcookie/CLionProjects/Game
+CMAKE_SOURCE_DIR = /home/GitHub/OOP_0382/Lityagin_lb1/Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cruelcookie/CLionProjects/Game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles /home/cruelcookie/CLionProjects/Game/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -321,30 +321,6 @@ map/MapBuilder/MapDirector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s
 .PHONY : map/MapBuilder/MapDirector.cpp.s
 
-map/MapBuilder/SecondMapBuilder.o: map/MapBuilder/SecondMapBuilder.cpp.o
-.PHONY : map/MapBuilder/SecondMapBuilder.o
-
-# target to build an object file
-map/MapBuilder/SecondMapBuilder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o
-.PHONY : map/MapBuilder/SecondMapBuilder.cpp.o
-
-map/MapBuilder/SecondMapBuilder.i: map/MapBuilder/SecondMapBuilder.cpp.i
-.PHONY : map/MapBuilder/SecondMapBuilder.i
-
-# target to preprocess a source file
-map/MapBuilder/SecondMapBuilder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.i
-.PHONY : map/MapBuilder/SecondMapBuilder.cpp.i
-
-map/MapBuilder/SecondMapBuilder.s: map/MapBuilder/SecondMapBuilder.cpp.s
-.PHONY : map/MapBuilder/SecondMapBuilder.s
-
-# target to generate assembly for a file
-map/MapBuilder/SecondMapBuilder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.s
-.PHONY : map/MapBuilder/SecondMapBuilder.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -378,9 +354,6 @@ help:
 	@echo "... map/MapBuilder/MapDirector.o"
 	@echo "... map/MapBuilder/MapDirector.i"
 	@echo "... map/MapBuilder/MapDirector.s"
-	@echo "... map/MapBuilder/SecondMapBuilder.o"
-	@echo "... map/MapBuilder/SecondMapBuilder.i"
-	@echo "... map/MapBuilder/SecondMapBuilder.s"
 .PHONY : help
 
 

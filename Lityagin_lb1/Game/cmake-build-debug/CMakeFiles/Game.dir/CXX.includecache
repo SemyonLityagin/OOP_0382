@@ -6,61 +6,79 @@
 
 #IncludeRegexTransform: 
 
-/home/cruelcookie/CLionProjects/Game/Game.cpp
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.cpp
 Game.h
-/home/cruelcookie/CLionProjects/Game/Game.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.h
 
-/home/cruelcookie/CLionProjects/Game/Game.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.h
 iostream
 -
 SFML/Graphics.hpp
 -
 map/MapBuilder/Field/Cell/Cell.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.h
 map/MapBuilder/Field/Field.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.h
 map/MapBuilder/MapDirector.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.h
 map/MapBuilder/FirstMapBuilder.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.h
-map/MapBuilder/SecondMapBuilder.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/main.cpp
+Game.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.h
+
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.cpp
+Cell.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.h
+
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.h
 cstring
 -
 iostream
 -
 IntObj.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.cpp
+IntObj.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.h
+
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.cpp
+Field.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.h
+
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.h
 iostream
 -
 Cell/Cell.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.cpp
+FirstMapBuilder.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.h
+
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.h
 MapBuilder.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.h
 Field/Field.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.h
 Field/Cell/Cell.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
-
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.cpp
 MapBuilder.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.h
 
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.h
+
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.cpp
+MapDirector.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.h
+
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.h
 MapBuilder.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.h
-Field/Field.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.h
-Field/Cell/Cell.h
-/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.h
+/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.h
 

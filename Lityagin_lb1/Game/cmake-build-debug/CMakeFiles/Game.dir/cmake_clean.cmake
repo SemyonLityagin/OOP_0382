@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o"
   "CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o"
   "CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o"
-  "CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o"
   "Game"
   "Game.pdb"
 )

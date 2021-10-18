@@ -8,19 +8,7 @@ void Game::StartGame() {
     director.ConstructMap();
     Field* field = builder->ReturnField();
     delete builder;
-/*
-    auto* builder2 = new SecondMapBuilder();
-    director = MapDirector(builder2);
-    director.ConstructMap();
-    Field* field2 = builder2->ReturnField();
-    Field field3;
-    Field field4;
-    delete builder2;
-    field3 = std::move(*field2);
-    field4 = std::move(*field);
-    delete field2;
-    delete field;
-*/
+
     while(window.isOpen()){
         sf::Event event;
         while(window.pollEvent(event)){
@@ -32,7 +20,6 @@ void Game::StartGame() {
         window.display();
     }
     delete field;
-    //delete field2;
 }
 
 void Game::DrawFieldOnWindow(Cell** cells, sf::RenderWindow *window) {

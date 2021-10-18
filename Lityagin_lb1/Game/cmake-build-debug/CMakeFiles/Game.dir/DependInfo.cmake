@@ -8,15 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cruelcookie/CLionProjects/Game/Game.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Game.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/main.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/main.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o"
-  "/home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.cpp" "/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/Game.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/main.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/main.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o"
+  "/home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.cpp" "/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

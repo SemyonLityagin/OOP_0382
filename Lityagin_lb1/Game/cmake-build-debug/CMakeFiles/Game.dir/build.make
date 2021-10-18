@@ -53,10 +53,10 @@ RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cruelcookie/CLionProjects/Game
+CMAKE_SOURCE_DIR = /home/GitHub/OOP_0382/Lityagin_lb1/Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cruelcookie/CLionProjects/Game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Game.dir/depend.make
@@ -68,120 +68,107 @@ include CMakeFiles/Game.dir/flags.make
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o: ../map/MapBuilder/Field/Cell/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.cpp
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.cpp > CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.cpp > CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.i
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/Cell.cpp -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/Cell.cpp -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/Cell.cpp.s
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o: ../map/MapBuilder/Field/Field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.cpp
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp > CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.cpp > CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.i
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Field.cpp -o CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Field.cpp -o CMakeFiles/Game.dir/map/MapBuilder/Field/Field.cpp.s
 
 CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o: ../map/MapBuilder/MapBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.cpp
 
 CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.cpp > CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.cpp > CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.i
 
 CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapBuilder.cpp -o CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapBuilder.cpp -o CMakeFiles/Game.dir/map/MapBuilder/MapBuilder.cpp.s
 
 CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o: ../map/MapBuilder/MapDirector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.cpp
 
 CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.cpp > CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.cpp > CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.i
 
 CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/MapDirector.cpp -o CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/MapDirector.cpp -o CMakeFiles/Game.dir/map/MapBuilder/MapDirector.cpp.s
 
 CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o: ../map/MapBuilder/FirstMapBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.cpp
 
 CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp > CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.cpp > CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.i
 
 CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/FirstMapBuilder.cpp -o CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/FirstMapBuilder.cpp -o CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.s
 
 CMakeFiles/Game.dir/Game.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Game.cpp.o -c /home/cruelcookie/CLionProjects/Game/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Game.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.cpp
 
 CMakeFiles/Game.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/Game.cpp > CMakeFiles/Game.dir/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.cpp > CMakeFiles/Game.dir/Game.cpp.i
 
 CMakeFiles/Game.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/Game.cpp -o CMakeFiles/Game.dir/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/Game.cpp -o CMakeFiles/Game.dir/Game.cpp.s
 
 CMakeFiles/Game.dir/main.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/main.cpp.o -c /home/cruelcookie/CLionProjects/Game/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/main.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/main.cpp
 
 CMakeFiles/Game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/main.cpp > CMakeFiles/Game.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/main.cpp > CMakeFiles/Game.dir/main.cpp.i
 
 CMakeFiles/Game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/main.cpp -o CMakeFiles/Game.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/main.cpp -o CMakeFiles/Game.dir/main.cpp.s
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o: ../map/MapBuilder/Field/Cell/IntObj.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o -c /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.cpp
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.cpp > CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.cpp > CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.i
 
 CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/Field/Cell/IntObj.cpp -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.s
-
-CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o: CMakeFiles/Game.dir/flags.make
-CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o: ../map/MapBuilder/SecondMapBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o -c /home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.cpp
-
-CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.cpp > CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.i
-
-CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game/map/MapBuilder/SecondMapBuilder.cpp -o CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/GitHub/OOP_0382/Lityagin_lb1/Game/map/MapBuilder/Field/Cell/IntObj.cpp -o CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.s
 
 # Object files for target Game
 Game_OBJECTS = \
@@ -192,8 +179,7 @@ Game_OBJECTS = \
 "CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o" \
 "CMakeFiles/Game.dir/Game.cpp.o" \
 "CMakeFiles/Game.dir/main.cpp.o" \
-"CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o" \
-"CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o"
+"CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o"
 
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
@@ -206,14 +192,13 @@ Game: CMakeFiles/Game.dir/map/MapBuilder/FirstMapBuilder.cpp.o
 Game: CMakeFiles/Game.dir/Game.cpp.o
 Game: CMakeFiles/Game.dir/main.cpp.o
 Game: CMakeFiles/Game.dir/map/MapBuilder/Field/Cell/IntObj.cpp.o
-Game: CMakeFiles/Game.dir/map/MapBuilder/SecondMapBuilder.cpp.o
 Game: CMakeFiles/Game.dir/build.make
 Game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Game: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Game: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -225,6 +210,6 @@ CMakeFiles/Game.dir/clean:
 .PHONY : CMakeFiles/Game.dir/clean
 
 CMakeFiles/Game.dir/depend:
-	cd /home/cruelcookie/CLionProjects/Game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cruelcookie/CLionProjects/Game /home/cruelcookie/CLionProjects/Game /home/cruelcookie/CLionProjects/Game/cmake-build-debug /home/cruelcookie/CLionProjects/Game/cmake-build-debug /home/cruelcookie/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/GitHub/OOP_0382/Lityagin_lb1/Game /home/GitHub/OOP_0382/Lityagin_lb1/Game /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug /home/GitHub/OOP_0382/Lityagin_lb1/Game/cmake-build-debug/CMakeFiles/Game.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Game.dir/depend
 
