@@ -6,7 +6,13 @@ Floor::Floor(int height, int width): height(height), width(width) {
 };
 
 Floor::Floor(const Floor& other){
-    *this = other;
+    this->height = other.height;
+    this->width = other.width;
+    for(int i = 0; i < this->height; i++) {
+        for (int j = 0; j < this->width; j++) {
+            *(this->cells[i][j]) = *(other.cells[i][j]);
+        }
+    }
 }
 
 Floor& Floor::operator=(const Floor& other) {
@@ -18,6 +24,19 @@ Floor& Floor::operator=(const Floor& other) {
         }
     }
     return *this;
+}
+
+Floor::Floor(Floor &&other) {
+    this->height = other.height;
+    other.height = 0;
+    this->width = other.width;
+    other.width = 0;
+    for(int i = 0; i < this->height; i++) {
+        for (int j = 0; j < this->width; j++) {
+            *(this->cells[i][j]) = *(other.cells[i][j]);
+            delete other.cells[i][j];
+        }
+    }
 }
 
 Floor& Floor::operator=(Floor&& other){
