@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/untitled14.dir/main.cpp.o CMakeFiles/untitled14.dir/Cell.cpp.o CMakeFiles/untitled14.dir/Floor.cpp.o -o untitled14  /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1 
