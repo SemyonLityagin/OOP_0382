@@ -13,7 +13,7 @@ public:
     virtual void SetHealth(int health);
     virtual int GetHealth();
     virtual int GetForce();
-    virtual void Interaction(Object* unit);
+    virtual void Interaction(Object* object);
     virtual int GetData();
     virtual ObjectType GetType();
 };

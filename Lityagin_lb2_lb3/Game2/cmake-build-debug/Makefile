@@ -201,30 +201,6 @@ Moving/Moving.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Moving/Moving.cpp.s
 .PHONY : Moving/Moving.cpp.s
 
-log/ConsFileLog.o: log/ConsFileLog.cpp.o
-.PHONY : log/ConsFileLog.o
-
-# target to build an object file
-log/ConsFileLog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/log/ConsFileLog.cpp.o
-.PHONY : log/ConsFileLog.cpp.o
-
-log/ConsFileLog.i: log/ConsFileLog.cpp.i
-.PHONY : log/ConsFileLog.i
-
-# target to preprocess a source file
-log/ConsFileLog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/log/ConsFileLog.cpp.i
-.PHONY : log/ConsFileLog.cpp.i
-
-log/ConsFileLog.s: log/ConsFileLog.cpp.s
-.PHONY : log/ConsFileLog.s
-
-# target to generate assembly for a file
-log/ConsFileLog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/log/ConsFileLog.cpp.s
-.PHONY : log/ConsFileLog.cpp.s
-
 log/ConsoleLogger.o: log/ConsoleLogger.cpp.o
 .PHONY : log/ConsoleLogger.o
 
@@ -248,6 +224,30 @@ log/ConsoleLogger.s: log/ConsoleLogger.cpp.s
 log/ConsoleLogger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/log/ConsoleLogger.cpp.s
 .PHONY : log/ConsoleLogger.cpp.s
+
+log/Decorator.o: log/Decorator.cpp.o
+.PHONY : log/Decorator.o
+
+# target to build an object file
+log/Decorator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/log/Decorator.cpp.o
+.PHONY : log/Decorator.cpp.o
+
+log/Decorator.i: log/Decorator.cpp.i
+.PHONY : log/Decorator.i
+
+# target to preprocess a source file
+log/Decorator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/log/Decorator.cpp.i
+.PHONY : log/Decorator.cpp.i
+
+log/Decorator.s: log/Decorator.cpp.s
+.PHONY : log/Decorator.s
+
+# target to generate assembly for a file
+log/Decorator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/log/Decorator.cpp.s
+.PHONY : log/Decorator.cpp.s
 
 log/FileLogger.o: log/FileLogger.cpp.o
 .PHONY : log/FileLogger.o
@@ -795,12 +795,12 @@ help:
 	@echo "... Moving/Moving.o"
 	@echo "... Moving/Moving.i"
 	@echo "... Moving/Moving.s"
-	@echo "... log/ConsFileLog.o"
-	@echo "... log/ConsFileLog.i"
-	@echo "... log/ConsFileLog.s"
 	@echo "... log/ConsoleLogger.o"
 	@echo "... log/ConsoleLogger.i"
 	@echo "... log/ConsoleLogger.s"
+	@echo "... log/Decorator.o"
+	@echo "... log/Decorator.i"
+	@echo "... log/Decorator.s"
 	@echo "... log/FileLogger.o"
 	@echo "... log/FileLogger.i"
 	@echo "... log/FileLogger.s"

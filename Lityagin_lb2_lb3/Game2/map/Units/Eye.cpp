@@ -31,22 +31,22 @@ void Eye::SetCoord(int x, int y) {
 int* Eye::GetCoord() {
     return this->coord;
 }
-void Eye::Interaction(Object* units) {
-    units->SetHealth(units->GetHealth() - this->force);
+void Eye::Interaction(Object* object) {
+    object->SetHealth(object->GetHealth() - this->force);
 }
 bool Eye::IsAlive() {
     return is_alive;
 }
-void Eye::Move(Field *field, int x, int y) {
-    if((x > 0 && x < Size - 1 && y > 0 && y < Size -1)&&field->GetCells()[x][y].IsMovable()) {
-        if(field->GetCells()[x][y].GetObjectType() == empty) {
-            field->GetCells()[coord[0]][coord[1]].SetObject(nullptr);
+void Eye::Move(Cell** cells, int x, int y) {
+    if((x > 0 && x < Size - 1 && y > 0 && y < Size -1)&&cells[x][y].IsMovable()) {
+        if(cells[x][y].GetObjectType() == empty) {
+            cells[coord[0]][coord[1]].SetObject(nullptr);
             SetCoord(x, y);
-            field->GetCells()[x][y].SetObject(this);
+            cells[x][y].SetObject(this);
         }
         else{
-            if (field->GetCells()[x][y].GetObjectType() == hero) {
-                Interaction(field->GetCells()[x][y].GetObject());
+            if (cells[x][y].GetObjectType() == hero) {
+                Interaction(cells[x][y].GetObject());
             }
         }
     }

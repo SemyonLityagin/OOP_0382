@@ -44,33 +44,34 @@ void Hero::SetCoord(int x, int y) {
 int* Hero::GetCoord() {
     return this->coord;
 }
-void Hero::Interaction(Object* units) {
-    if(units->GetType() == eye || units->GetType() == ent || units->GetType() == spider) {
-        units->SetHealth(units->GetHealth() - this->force);
+void Hero::Interaction(Object* object) {
+    if(object->GetType() == eye || object->GetType() == ent || object->GetType() == spider) {
+        object->SetHealth(object->GetHealth() - this->force);
     }
-    else if(units->GetType() == axe){
-        this->SetForce(force + units->GetData());
+    else if(object->GetType() == axe){
+        this->SetForce(force + object->GetData());
     }
-    else if(units->GetType() == candy){
-        this->SetHealth(health + units->GetData());
+    else if(object->GetType() == candy){
+        this->SetHealth(health + object->GetData());
     }
-    else if(units->GetType() == coin){
-        this->SetCoins(coins + units->GetData());
+    else if(object->GetType() == coin){
+        this->SetCoins(coins + object->GetData());
     }
 }
 bool Hero::IsAlive() {
     return is_alive;
 }
-void Hero::Move(Field *field, int x, int y) {
-    if((x > 0 && x < Size - 1 && y > 0 && y < Size -1)&&field->GetCells()[x][y].IsMovable() || field->GetCells()[x][y].GetType() == Exit){
-        if(field->GetCells()[x][y].GetObjectType() == empty) {
-            field->GetCells()[coord[0]][coord[1]].SetObject(nullptr);
+
+void Hero::Move(Cell** cells, int x, int y) {
+    if((x > 0 && x < Size - 1 && y > 0 && y < Size -1)&&cells[x][y].IsMovable() || cells[x][y].GetType() == Exit){
+        if(cells[x][y].GetObjectType() == empty) {
+            cells[coord[0]][coord[1]].SetObject(nullptr);
             SetCoord(x, y);
-            field->GetCells()[x][y].SetObject(this);
+            cells[x][y].SetObject(this);
         }
         else{
-            if (field->GetCells()[x][y].GetObjectType() != empty) {
-                Interaction(field->GetCells()[x][y].GetObject());
+            if (cells[x][y].GetObjectType() != empty) {
+                Interaction(cells[x][y].GetObject());
             }
         }
     }
@@ -92,4 +93,5 @@ std::string Hero::GetLog() {
     return "type: hero\nhealth: " + std::to_string(health) + " \ndamage: " + std::to_string(force) + " \ncoord: ("   + std::to_string(coord[0]) + ", " +
            std::to_string(coord[1]) + ")" + " \ncoins: " + std::to_string(coins) +"\nalive: " + std::to_string(is_alive) + " \n//-----------\n";
 }
+
 

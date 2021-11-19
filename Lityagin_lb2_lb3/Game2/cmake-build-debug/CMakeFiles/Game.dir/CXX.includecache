@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/cruelcookie/CLionProjects/Game2/Drawing.cpp
+Drawing.h
+/home/cruelcookie/CLionProjects/Game2/Drawing.h
+Game.h
+/home/cruelcookie/CLionProjects/Game2/Game.h
+
 /home/cruelcookie/CLionProjects/Game2/Drawing.h
 SFML/Graphics.hpp
 -
@@ -13,10 +19,6 @@ map/MapBuilder/Field/Cell/Cell.h
 /home/cruelcookie/CLionProjects/Game2/map/MapBuilder/Field/Cell/Cell.h
 map/MapBuilder/Field/Field.h
 /home/cruelcookie/CLionProjects/Game2/map/MapBuilder/Field/Field.h
-
-/home/cruelcookie/CLionProjects/Game2/Game.cpp
-Game.h
-/home/cruelcookie/CLionProjects/Game2/Game.h
 
 /home/cruelcookie/CLionProjects/Game2/Game.h
 iostream
@@ -77,6 +79,8 @@ Drawing.h
 /home/cruelcookie/CLionProjects/Game2/log/Logger.h
 ./log/LoggerImplication.h
 /home/cruelcookie/CLionProjects/Game2/log/LoggerImplication.h
+./log/Decorator.h
+/home/cruelcookie/CLionProjects/Game2/log/Decorator.h
 
 /home/cruelcookie/CLionProjects/Game2/Moving/Moving.h
 ../map/MapBuilder/Field/Cell/Cell.h
@@ -101,6 +105,10 @@ iostream
 -
 Subject.h
 /home/cruelcookie/CLionProjects/Game2/log/Subject.h
+Decorator.h
+/home/cruelcookie/CLionProjects/Game2/log/Decorator.h
+
+/home/cruelcookie/CLionProjects/Game2/log/Decorator.h
 LoggerImplication.h
 /home/cruelcookie/CLionProjects/Game2/log/LoggerImplication.h
 
@@ -111,8 +119,8 @@ iostream
 -
 Subject.h
 /home/cruelcookie/CLionProjects/Game2/log/Subject.h
-LoggerImplication.h
-/home/cruelcookie/CLionProjects/Game2/log/LoggerImplication.h
+Decorator.h
+/home/cruelcookie/CLionProjects/Game2/log/Decorator.h
 
 /home/cruelcookie/CLionProjects/Game2/log/Logger.h
 Observer.h
@@ -133,6 +141,12 @@ iostream
 -
 Observer.h
 /home/cruelcookie/CLionProjects/Game2/log/Observer.h
+
+/home/cruelcookie/CLionProjects/Game2/main.cpp
+Game.h
+/home/cruelcookie/CLionProjects/Game2/Game.h
+Drawing.h
+/home/cruelcookie/CLionProjects/Game2/Drawing.h
 
 /home/cruelcookie/CLionProjects/Game2/map/Factory/EntFactory.h
 ../Units/Ent.h

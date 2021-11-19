@@ -4,13 +4,19 @@
 #include <fstream>
 #include <iostream>
 #include "Subject.h"
-#include "LoggerImplication.h"
+#include "Decorator.h"
 
-class FileLogger:public LoggerImplication{
+class FileLogger:public Decorator{
 private:
     std::ofstream output;
 public:
-    FileLogger(const std::string& fileName);
+    FileLogger(LoggerImplication* log): Decorator(log){
+        output.open("/home/cruelcookie/CLionProjects/Game2/log/log.txt");
+        if (output.fail())
+        {
+            throw std::iostream::failure("Cannot open file: log.txt");
+        }
+    };
     ~FileLogger() override;
     void Out(Subject* sub) override;
 };

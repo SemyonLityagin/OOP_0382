@@ -391,9 +391,22 @@ CMakeFiles/Game.dir/log/ConsoleLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/log/ConsoleLogger.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game2/log/ConsoleLogger.cpp -o CMakeFiles/Game.dir/log/ConsoleLogger.cpp.s
 
+CMakeFiles/Game.dir/log/Decorator.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/log/Decorator.cpp.o: ../log/Decorator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Game.dir/log/Decorator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/log/Decorator.cpp.o -c /home/cruelcookie/CLionProjects/Game2/log/Decorator.cpp
+
+CMakeFiles/Game.dir/log/Decorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/log/Decorator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game2/log/Decorator.cpp > CMakeFiles/Game.dir/log/Decorator.cpp.i
+
+CMakeFiles/Game.dir/log/Decorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/log/Decorator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game2/log/Decorator.cpp -o CMakeFiles/Game.dir/log/Decorator.cpp.s
+
 CMakeFiles/Game.dir/log/Logger.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/log/Logger.cpp.o: ../log/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Game.dir/log/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Game.dir/log/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/log/Logger.cpp.o -c /home/cruelcookie/CLionProjects/Game2/log/Logger.cpp
 
 CMakeFiles/Game.dir/log/Logger.cpp.i: cmake_force
@@ -403,19 +416,6 @@ CMakeFiles/Game.dir/log/Logger.cpp.i: cmake_force
 CMakeFiles/Game.dir/log/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/log/Logger.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game2/log/Logger.cpp -o CMakeFiles/Game.dir/log/Logger.cpp.s
-
-CMakeFiles/Game.dir/log/ConsFileLog.cpp.o: CMakeFiles/Game.dir/flags.make
-CMakeFiles/Game.dir/log/ConsFileLog.cpp.o: ../log/ConsFileLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Game.dir/log/ConsFileLog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/log/ConsFileLog.cpp.o -c /home/cruelcookie/CLionProjects/Game2/log/ConsFileLog.cpp
-
-CMakeFiles/Game.dir/log/ConsFileLog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/log/ConsFileLog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cruelcookie/CLionProjects/Game2/log/ConsFileLog.cpp > CMakeFiles/Game.dir/log/ConsFileLog.cpp.i
-
-CMakeFiles/Game.dir/log/ConsFileLog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/log/ConsFileLog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cruelcookie/CLionProjects/Game2/log/ConsFileLog.cpp -o CMakeFiles/Game.dir/log/ConsFileLog.cpp.s
 
 # Object files for target Game
 Game_OBJECTS = \
@@ -444,8 +444,8 @@ Game_OBJECTS = \
 "CMakeFiles/Game.dir/log/Subject.cpp.o" \
 "CMakeFiles/Game.dir/log/FileLogger.cpp.o" \
 "CMakeFiles/Game.dir/log/ConsoleLogger.cpp.o" \
-"CMakeFiles/Game.dir/log/Logger.cpp.o" \
-"CMakeFiles/Game.dir/log/ConsFileLog.cpp.o"
+"CMakeFiles/Game.dir/log/Decorator.cpp.o" \
+"CMakeFiles/Game.dir/log/Logger.cpp.o"
 
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
@@ -475,8 +475,8 @@ Game: CMakeFiles/Game.dir/Moving/Moving.cpp.o
 Game: CMakeFiles/Game.dir/log/Subject.cpp.o
 Game: CMakeFiles/Game.dir/log/FileLogger.cpp.o
 Game: CMakeFiles/Game.dir/log/ConsoleLogger.cpp.o
+Game: CMakeFiles/Game.dir/log/Decorator.cpp.o
 Game: CMakeFiles/Game.dir/log/Logger.cpp.o
-Game: CMakeFiles/Game.dir/log/ConsFileLog.cpp.o
 Game: CMakeFiles/Game.dir/build.make
 Game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Game: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1

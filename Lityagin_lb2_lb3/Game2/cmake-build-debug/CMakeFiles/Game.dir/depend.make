@@ -4,17 +4,42 @@
 CMakeFiles/Game.dir/Drawing.cpp.o: \
  ../Drawing.cpp \
  ../Drawing.h \
+ ../Game.h \
+ ../Moving/Moving.h \
+ ../log/ConsoleLogger.h \
+ ../log/Decorator.h \
+ ../log/FileLogger.h \
+ ../log/Logger.h \
+ ../log/LoggerImplication.h \
  ../log/Observer.h \
  ../log/Subject.h \
+ ../map/Factory/EntFactory.h \
+ ../map/Factory/EyeFactory.h \
+ ../map/Factory/ObjectFactory.h \
+ ../map/Factory/SpiderFactory.h \
  ../map/MapBuilder/Field/Cell/Cell.h \
  ../map/MapBuilder/Field/Field.h \
- ../map/Units/Object.h
+ ../map/MapBuilder/FirstMapBuilder.h \
+ ../map/MapBuilder/MapBuilder.h \
+ ../map/MapBuilder/MapDirector.h \
+ ../map/Things/Axe.h \
+ ../map/Things/Candy.h \
+ ../map/Things/Coin.h \
+ ../map/Things/Thing.h \
+ ../map/Units/Ent.h \
+ ../map/Units/Eye.h \
+ ../map/Units/Hero.h \
+ ../map/Units/Object.h \
+ ../map/Units/Spider.h \
+ ../map/Units/Unit.h
 CMakeFiles/Game.dir/Game.cpp.o: \
  ../Drawing.h \
  ../Game.cpp \
  ../Game.h \
  ../Moving/Moving.h \
+ ../log/ConcreteLog.h \
  ../log/ConsoleLogger.h \
+ ../log/Decorator.h \
  ../log/FileLogger.h \
  ../log/Logger.h \
  ../log/LoggerImplication.h \
@@ -53,19 +78,21 @@ CMakeFiles/Game.dir/Moving/Moving.cpp.o: \
  ../map/Units/Hero.h \
  ../map/Units/Object.h \
  ../map/Units/Unit.h
-CMakeFiles/Game.dir/log/ConsFileLog.cpp.o: \
- ../log/ConsFileLog.cpp \
- ../log/ConsFileLog.h \
- ../log/LoggerImplication.h \
- ../log/Observer.h \
- ../log/Subject.h
 CMakeFiles/Game.dir/log/ConsoleLogger.cpp.o: \
  ../log/ConsoleLogger.cpp \
  ../log/ConsoleLogger.h \
+ ../log/Decorator.h \
+ ../log/LoggerImplication.h \
+ ../log/Observer.h \
+ ../log/Subject.h
+CMakeFiles/Game.dir/log/Decorator.cpp.o: \
+ ../log/Decorator.cpp \
+ ../log/Decorator.h \
  ../log/LoggerImplication.h \
  ../log/Observer.h \
  ../log/Subject.h
 CMakeFiles/Game.dir/log/FileLogger.cpp.o: \
+ ../log/Decorator.h \
  ../log/FileLogger.cpp \
  ../log/FileLogger.h \
  ../log/LoggerImplication.h \
@@ -86,6 +113,7 @@ CMakeFiles/Game.dir/main.cpp.o: \
  ../Game.h \
  ../Moving/Moving.h \
  ../log/ConsoleLogger.h \
+ ../log/Decorator.h \
  ../log/FileLogger.h \
  ../log/Logger.h \
  ../log/LoggerImplication.h \

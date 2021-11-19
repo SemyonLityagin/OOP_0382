@@ -100,16 +100,19 @@
 		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Moving/Moving.h">
 			<Option target="Game"/>
 		</Unit>
-		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConsFileLog.cpp">
-			<Option target="Game"/>
-		</Unit>
-		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConsFileLog.h">
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConcreteLog.h">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConsoleLogger.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConsoleLogger.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Decorator.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Decorator.h">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/FileLogger.cpp">

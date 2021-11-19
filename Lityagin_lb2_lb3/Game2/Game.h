@@ -32,13 +32,13 @@
 #include "./log/FileLogger.h"
 #include "./log/Logger.h"
 #include "./log/LoggerImplication.h"
-
+#include "./log/Decorator.h"
 
 class Game{
 public:
     void StartGame(int EVIL, int THING);
-    Unit** CreateEvil(Field* field, int EVIL);
-    Thing** CreateThing(Field* field, int THING);
+    Unit** CreateEvil(Cell** cell, int EVIL);
+    Thing** CreateThing(Cell** cell, int THING);
 };
 
 #endif //GAME_GAME_H

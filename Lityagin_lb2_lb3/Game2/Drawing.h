@@ -13,6 +13,7 @@
 #define EnterPNG "../texture/CellStart.png"
 #define ExitPNG "../texture/CellEnd.png"
 #define WallPNG "../texture/CellWall.png"
+#define PlayPNG "../texture/Play.png"
 
 #include <SFML/Graphics.hpp>
 #include "map/MapBuilder/Field/Cell/Cell.h"
@@ -32,6 +33,7 @@ private:
 public:
     Drawing();
     void DrawFieldOnWindow(Cell** cells, RenderWindow *window);
+    static void HelloWindow();
 };
 
 #endif //GAME_DRAWING_H

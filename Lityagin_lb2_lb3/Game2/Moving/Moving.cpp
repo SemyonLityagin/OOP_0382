@@ -8,6 +8,10 @@ void Move::Movement(RenderWindow *window, Field *field, Hero *gamer, Unit **evil
         window->clear();
         draw->DrawFieldOnWindow(field->GetCells(), window);
         coord = gamer->GetCoord();
+        if(!gamer->IsAlive()){
+            window->close();
+            std::cout << "hero dead";
+        }
         sf::Event event;
         while(window->pollEvent(event)){
             if(coord[0] == 1 && coord[1] == 0){
@@ -16,44 +20,27 @@ void Move::Movement(RenderWindow *window, Field *field, Hero *gamer, Unit **evil
             if(event.type == sf::Event::Closed) {
                 window->close();
             }
-            if(!gamer->IsAlive()){
-                window->close();
-                std::cout << "hero dead";
-            }
             if(event.key.code == sf::Keyboard::A && !pressed){
                 pressed = true;
                 MoveHero(field, gamer, coord[0]-1, coord[1]);
-                Move::CheckObject(evil, thing, EVIL, THING, field);
-                //footstep.play();
-                MoveEvil(field, evil, EVIL);
-                logger->Update();
             }
             if(event.key.code == sf::Keyboard::W && !pressed){
                 pressed = true;
                 MoveHero(field, gamer, coord[0], coord[1]-1);
-                Move::CheckObject(evil, thing, EVIL, THING, field);
-                //footstep.play();
-                MoveEvil(field, evil, EVIL);
-                logger->Update();
             }
             if(event.key.code == sf::Keyboard::D && !pressed){
                 pressed = true;
                 MoveHero(field, gamer, coord[0]+1, coord[1]);
-                Move::CheckObject(evil, thing, EVIL, THING, field);
-                //footstep.play();
-                MoveEvil(field, evil, EVIL);
-                logger->Update();
             }
             if(event.key.code == sf::Keyboard::S && !pressed){
                 pressed = true;
                 MoveHero(field, gamer, coord[0], coord[1]+1);
-                Move::CheckObject(evil, thing, EVIL, THING, field);
-                //footstep.play();
-                MoveEvil(field, evil, EVIL);
-                logger->Update();
             }
             if(event.type == Event::KeyReleased){
                 pressed = false;
+                Move::CheckObject(evil, thing, EVIL, THING, field);
+                MoveEvil(field, evil, EVIL);
+                logger->Update();
             }
         }
         window->display();
@@ -61,7 +48,7 @@ void Move::Movement(RenderWindow *window, Field *field, Hero *gamer, Unit **evil
 }
 
 void Move::MoveHero(Field* field, Unit* hero, int x, int y){
-    hero->Move(field, x, y);
+    hero->Move(field->GetCells(), x, y);
 }
 
 void Move::CheckObject(Unit** evil, Thing** thing, int EVIL, int THING, Field* field){
@@ -110,10 +97,7 @@ void Move::MoveEvil(Field* field, Unit** evils, int EVIL) {
                 x = coords[0];
                 y = coords[1] - 1;
             }
-            evils[i]->Move(field, x, y);
-            if (field->GetCells()[x][y].GetObjectType() == hero) {
-                evils[i]->Interaction(field->GetCells()[x][y].GetObject());
-            }
+            evils[i]->Move(field->GetCells(), x, y);
         }
     }
 }

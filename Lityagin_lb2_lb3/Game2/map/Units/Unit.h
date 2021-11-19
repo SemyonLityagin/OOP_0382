@@ -10,7 +10,7 @@ public:
     virtual void SetForce(int damage);
     virtual void SetMaxHealth(int maxHealth);
     virtual bool IsAlive();
-    virtual void Move(Field* field, int x, int y);
+    virtual void Move(Cell** cells, int x, int y);
 };
 
 #endif //GAME_UNIT_H

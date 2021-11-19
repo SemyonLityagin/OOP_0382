@@ -28,8 +28,8 @@ void Spider::SetCoord(int x, int y) {
     this->coord[0] = x;
     this->coord[1] = y;
 }
-void Spider::Interaction(Object* units) {
-    units->SetHealth(units->GetHealth() - this->force);
+void Spider::Interaction(Object* object) {
+    object->SetHealth(object->GetHealth() - this->force);
 }
 int* Spider::GetCoord() {
     return this->coord;
@@ -37,16 +37,16 @@ int* Spider::GetCoord() {
 bool Spider::IsAlive() {
     return is_alive;
 }
-void Spider::Move(Field *field, int x, int y) {
+void Spider::Move(Cell** cells, int x, int y) {
     if((x > 0 && x < Size - 1 && y > 0 && y < Size -1)) {
-        if(field->GetCells()[x][y].GetObjectType() == empty) {
-            field->GetCells()[coord[0]][coord[1]].SetObject(nullptr);
+        if(cells[x][y].GetObjectType() == empty) {
+            cells[coord[0]][coord[1]].SetObject(nullptr);
             SetCoord(x, y);
-            field->GetCells()[x][y].SetObject(this);
+            cells[x][y].SetObject(this);
         }
         else{
-            if (field->GetCells()[x][y].GetObjectType() == hero) {
-                Interaction(field->GetCells()[x][y].GetObject());
+            if (cells[x][y].GetObjectType() == hero) {
+                Interaction(cells[x][y].GetObject());
             }
         }
     }

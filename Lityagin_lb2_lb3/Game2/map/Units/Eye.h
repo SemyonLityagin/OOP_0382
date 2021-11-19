@@ -11,7 +11,7 @@ private:
     ObjectType type;
     int coord[2] = {-1,-1};
 public:
-    explicit Eye(int health = 6, int force = 2,bool is_alive = true, ObjectType type = eye);
+    explicit Eye(int health = 8, int force = 4,bool is_alive = true, ObjectType type = eye);
     void SetHealth(int health) override;
     int GetHealth() override;
     void SetForce(int damage) override;
@@ -19,9 +19,9 @@ public:
     ObjectType GetType() override;
     void SetCoord(int x, int y) override;
     int* GetCoord() override;
-    void Interaction(Object* units) override;
+    void Interaction(Object* object) override;
     bool IsAlive() override;
-    void Move(Field *field, int x, int y) override;
+    void Move(Cell** cell, int x, int y) override;
     std::string GetLog() override;
 };
 #endif //GAME_EYE_H

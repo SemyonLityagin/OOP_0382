@@ -1,4 +1,5 @@
 #include "Drawing.h"
+#include "Game.h"
 
 Drawing::Drawing() {
     textureCell[0].loadFromFile(EnterPNG);
@@ -48,4 +49,43 @@ void Drawing::DrawFieldOnWindow(Cell** cells, RenderWindow *window) {
         }
     }
 }
+/*
+void Drawing::HelloWindow() {
+    Texture texture;
+    Texture texture2;
+    Sprite sprite1;
+    texture.loadFromFile(FloorPNG);
+    RenderWindow window(VideoMode(120, 80), "Це шо, тайм сквэр?!");
 
+    while(window.isOpen()){
+        for(int i = 0; i < 3; i++){
+            for(int j = 0; j < 2; j++){
+                sprite1 = Sprite(texture);
+                sprite1.setPosition(i * 40, j * 40);
+                window.draw(sprite1);
+            }
+        }
+        texture2.loadFromFile(PlayPNG);
+        sprite1 = Sprite(texture2);
+        sprite1.setPosition(40, 20);
+        window.draw(sprite1);
+        //window.clear();
+        sf::Event event;
+        while(window.pollEvent(event)){
+            if(event.type == sf::Event::Closed) {
+                window.close();
+            }
+            if (event.type == sf::Event::MouseButtonPressed)
+            {
+                if (event.mouseButton.button == sf::Mouse::Left)
+                {
+                    if(40 <= event.mouseButton.x <= 80 && 20 <= event.mouseButton.y <= 60 );
+                    Game game = Game();
+                    game.StartGame(10, 3);
+                }
+            }
+        }
+        window.display();
+    }
+}
+*/

@@ -6,10 +6,11 @@ Logger* Logger::GetInstance(Subject* sub, LoggerImplication* log)
     if(logger==nullptr){
         logger = new Logger(sub, log);
     }
+    logger->subject = sub;
+    logger->log = log;
     logger->subject->SetObs(logger);
     return logger;
 }
 void Logger::Update(){
     log->Out(subject);
 }
-

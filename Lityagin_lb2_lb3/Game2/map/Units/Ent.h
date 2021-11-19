@@ -11,7 +11,7 @@ private:
     ObjectType type;
     int coord[2] = {-1, -1};
 public:
-    explicit Ent(int health = 8, int force = 3,bool is_alive = true, ObjectType type = ent);
+    explicit Ent(int health = 12, int force = 6,bool is_alive = true, ObjectType type = ent);
     void SetHealth(int health) override;
     int GetHealth() override;
     void SetForce(int damage) override;
@@ -19,9 +19,9 @@ public:
     ObjectType GetType() override;
     void SetCoord(int x, int y) override;
     int* GetCoord() override;
-    void Interaction(Object* units) override;
+    void Interaction(Object* object) override;
     bool IsAlive() override;
-    void Move(Field *field, int x, int y) override;
+    void Move(Cell** cells, int x, int y) override;
     std::string GetLog() override;
 };
 

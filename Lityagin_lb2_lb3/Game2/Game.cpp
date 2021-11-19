@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "log/ConcreteLog.h"
 
 void Game::StartGame(int EVIL, int THING) {
     //Music background;
@@ -28,12 +29,13 @@ void Game::StartGame(int EVIL, int THING) {
     Hero* gamer = new Hero();
     field->GetCells()[Size-1][Size-2].SetObject(gamer);
     //create enemy
-    Unit** evil = CreateEvil(field, EVIL);
+    Unit** evil = CreateEvil(field->GetCells(), EVIL);
     //create things
-    Thing** thing = CreateThing(field, THING);
-
-    LoggerImplication* log = new FileLogger("/home/cruelcookie/CLionProjects/Game2/log/log.txt");
-    Logger* logger = Logger::GetInstance(gamer, log);
+    Thing** thing = CreateThing(field->GetCells(), THING);
+    LoggerImplication* log = new ConcreteLog();
+    LoggerImplication* log1 = new FileLogger(log);
+    LoggerImplication* log2 = new ConsoleLogger(log1);
+    Logger* logger = Logger::GetInstance(gamer, log2);
     logger->Update();
 
     Move::Movement(&window, field, gamer, evil, thing, &draw, EVIL, THING, logger);
@@ -52,7 +54,7 @@ void Game::StartGame(int EVIL, int THING) {
     delete log;
 }
 
-Unit** Game::CreateEvil(Field* field, int EVIL) {
+Unit** Game::CreateEvil(Cell** cell, int EVIL) {
     Unit** evil = new Unit*[EVIL];
     auto* eyeFactory = new EyeFactory;
     auto* entFactory = new EntFactory;
@@ -71,12 +73,12 @@ Unit** Game::CreateEvil(Field* field, int EVIL) {
         else if(direction < 9){
             evil[i] = spiderFactory->CreateUnit();
         }
-        while(!field->GetCells()[x][y].IsMovable() || field->GetCells()[x][y].GetObjectType() != empty) {
+        while(!cell[x][y].IsMovable() || cell[x][y].GetObjectType() != empty) {
             x = rand() % (Size - 2) + 1;
             y = rand() % (Size - 2) + 1;
         }
         evil[i]->SetCoord(x, y);
-        field->GetCells()[x][y].SetObject(evil[i]);
+        cell[x][y].SetObject(evil[i]);
     }
     delete eyeFactory;
     delete entFactory;
@@ -84,7 +86,7 @@ Unit** Game::CreateEvil(Field* field, int EVIL) {
     return evil;
 }
 
-Thing** Game::CreateThing(Field *field, int THING) {
+Thing** Game::CreateThing(Cell** cell, int THING) {
     Thing** thing = new Thing*[THING];
     int direction;
     int x = 0, y = 0;
@@ -99,14 +101,15 @@ Thing** Game::CreateThing(Field *field, int THING) {
         else if(direction < 9){
             thing[i] = new Coin();
         }
-        while(!field->GetCells()[x][y].IsMovable() || field->GetCells()[x][y].GetObjectType() != empty) {
+        while(!cell[x][y].IsMovable() || cell[x][y].GetObjectType() != empty) {
             x = rand() % (Size - 2) + 1;
             y = rand() % (Size - 2) + 1;
         }
         thing[i]->SetCoord(x, y);
-        field->GetCells()[x][y].SetObject(thing[i]);
+        cell[x][y].SetObject(thing[i]);
     }
     return thing;
 }
+
 
 

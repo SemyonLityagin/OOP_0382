@@ -3,10 +3,12 @@
 
 #include <iostream>
 #include "Subject.h"
-#include "LoggerImplication.h"
+#include "Decorator.h"
 
-class ConsoleLogger:public LoggerImplication{
+class ConsoleLogger:public Decorator{
 public:
+    ConsoleLogger(LoggerImplication* log): Decorator(log){};
+    ~ConsoleLogger() override;
     void Out(Subject* sub) override;
 };
 

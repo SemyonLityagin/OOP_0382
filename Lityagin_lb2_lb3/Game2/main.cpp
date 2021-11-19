@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "Drawing.h"
 
 int main(){
     int evil;
@@ -7,5 +8,7 @@ int main(){
     std::cin >> evil;
     std::cin >> thing;
     game.StartGame(evil, thing);
+
+    //Drawing::HelloWindow();
     return 0;
 }

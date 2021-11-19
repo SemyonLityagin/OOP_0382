@@ -10,7 +10,7 @@ private:
     bool is_available;
     int coord[2] = {-1, -1};
 public:
-    Axe(int damage = 5, ObjectType type = axe, bool is_available = true);
+    Axe(int damage = 2, ObjectType type = axe, bool is_available = true);
     int GetData() override;
     void SetCoord(int x, int y) override;
     int* GetCoord() override;
