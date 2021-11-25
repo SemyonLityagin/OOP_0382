@@ -1,3 +1,0 @@
-/home/GitHub/OOP_0382/Lityagin_lb2_lb3/Game2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/GitHub/OOP_0382/Lityagin_lb2_lb3/Game2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/GitHub/OOP_0382/Lityagin_lb2_lb3/Game2/cmake-build-debug/CMakeFiles/Game.dir
