@@ -15,9 +15,6 @@ void Game::StartGame(int EVIL, int THING) {
     //Sound footstep;
     //footstep.setBuffer(sound);
 
-    RenderWindow window(VideoMode(Size*40+100, Size*40), "Це шо, тайм сквэр?!");
-    Drawing draw = Drawing();
-
     //create field
     auto* builder = new FirstMapBuilder();
     auto director = MapDirector(builder);
@@ -32,11 +29,33 @@ void Game::StartGame(int EVIL, int THING) {
     Unit** evil = CreateEvil(field->GetCells(), EVIL);
     //create things
     Thing** thing = CreateThing(field->GetCells(), THING);
-    LoggerImplication* log = new ConcreteLog();
-    LoggerImplication* log1 = new FileLogger(log);
-    LoggerImplication* log2 = new ConsoleLogger(log1);
-    Logger* logger = Logger::GetInstance(gamer, log2);
+
+    //choose logger
+    std::cout << "Выберите тип логгера" << std::endl;
+    int type;
+    LoggerImplication* base;
+    std::cin >> type;
+    switch(type) {
+        case 0: {
+            LoggerImplication *log = new ConcreteLog();
+            base = new FileLogger(log);
+        }
+        case 1: {
+            LoggerImplication *log = new ConcreteLog();
+            base = new ConsoleLogger(log);
+        }
+        default: {
+            LoggerImplication *log = new ConcreteLog();
+            LoggerImplication *log1 = new FileLogger(log);
+            base = new ConsoleLogger(log1);
+        }
+    }
+    Logger *logger = Logger::GetInstance(gamer, base);
     logger->Update();
+
+
+    RenderWindow window(VideoMode(Size*40+100, Size*40), "Це шо, тайм сквэр?!");
+    Drawing draw = Drawing();
 
     Move::Movement(&window, field, gamer, evil, thing, &draw, EVIL, THING, logger);
 
@@ -51,7 +70,6 @@ void Game::StartGame(int EVIL, int THING) {
     delete [] thing;
     delete gamer;
     delete logger;
-    delete log;
 }
 
 Unit** Game::CreateEvil(Cell** cell, int EVIL) {

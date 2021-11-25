@@ -1,4 +1,4 @@
-# Install script for directory: /home/cruelcookie/CLionProjects/Game2
+# Install script for directory: /home/GitHub/OOP_0382/Lityagin_lb2_lb3/Game2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/GitHub/OOP_0382/Lityagin_lb2_lb3/Game2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
