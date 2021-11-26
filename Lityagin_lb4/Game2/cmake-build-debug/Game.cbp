@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cruelcookie/CLionProjects/Game2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cruelcookie/CLionProjects/Game2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cruelcookie/CLionProjects/Game2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game">
+				<Option output="/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cruelcookie/CLionProjects/Game2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game/fast">
+				<Option output="/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cruelcookie/CLionProjects/Game2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game/fast"/>
+					<CompileFile command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j5 -f &quot;/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Drawing.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Drawing.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Game.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Moving/Moving.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Moving/Moving.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConcreteLog.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConsoleLogger.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/ConsoleLogger.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Decorator.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Decorator.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/FileLogger.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/FileLogger.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Logger.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Logger.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Observer.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Subject.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/log/Subject.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/main.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Factory/EntFactory.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Factory/EntFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Factory/EyeFactory.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Factory/EyeFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Factory/ObjectFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Factory/SpiderFactory.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Factory/SpiderFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/Field/Cell/Cell.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/Field/Cell/Cell.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/Field/Field.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/Field/Field.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/FirstMapBuilder.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/FirstMapBuilder.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/MapBuilder.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/MapBuilder.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/MapDirector.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/MapDirector.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/SecondMapBuilder.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/MapBuilder/SecondMapBuilder.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Axe.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Axe.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Candy.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Candy.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Coin.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Coin.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Thing.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Things/Thing.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Ent.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Ent.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Eye.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Eye.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Hero.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Hero.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Object.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Object.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Spider.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Spider.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Unit.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/map/Units/Unit.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/rules/RulesBuilder.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/rules/RulesEnemy.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/rules/RulesThing.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

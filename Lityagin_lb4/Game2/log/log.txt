@@ -1,0 +1,344 @@
+type: hero
+health: 20 
+damage: 2 
+coord: (19, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (18, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (17, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (16, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (15, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (14, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (13, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (12, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 18) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 17) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 16) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 15) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 14) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 13) 
+coins: 0
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 13) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 12) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 11) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 10) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 9) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (11, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (10, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 2 
+coord: (9, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 4 
+coord: (9, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 4 
+coord: (8, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 4 
+coord: (8, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 4 
+coord: (7, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 4 
+coord: (7, 8) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 4 
+coord: (7, 7) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 4 
+coord: (7, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 6 
+coord: (7, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 6 
+coord: (6, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 6 
+coord: (5, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 6 
+coord: (4, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 16 
+damage: 6 
+coord: (3, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (3, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (2, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (1, 6) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (1, 5) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (1, 5) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (1, 4) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (1, 3) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (1, 2) 
+coins: 1
+alive: 1 
+//-----------
+
+type: hero
+health: 20 
+damage: 6 
+coord: (1, 1) 
+coins: 1
+alive: 1 
+//-----------
+
