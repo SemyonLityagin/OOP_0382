@@ -1,8 +1,12 @@
+#include <csignal>
 #include "Moving.h"
 using namespace sf;
 
 void Move::Movement(Field *field, Hero *gamer, Unit **evil, Thing **thing, int EVIL, int THING, Logger* logger) {
-    RenderWindow window(VideoMode(Size*40+100, Size*40), "Це шо, тайм сквэр?!");
+    if(Size < 5){
+        throw std::invalid_argument("Size of field error!");
+    }
+    RenderWindow window(VideoMode(Size*40+120, Size*40), "Це шо, тайм сквэр?!");
     Drawing draw = Drawing();
     int* coord;
     bool pressed = false;
@@ -22,25 +26,49 @@ void Move::Movement(Field *field, Hero *gamer, Unit **evil, Thing **thing, int E
             if(event.type == sf::Event::Closed) {
                 window.close();
             }
-            if(event.key.code == sf::Keyboard::A && !pressed){
-                pressed = true;
-                MoveHero(field, gamer, coord[0]-1, coord[1]);
+            if(event.type == sf::Event::MouseButtonPressed && !pressed) {
+                if (event.mouseButton.button == sf::Mouse::Left) {
+                    int cx = event.mouseButton.x;
+                    int cy = event.mouseButton.y;
+                    if (Size * 40 <= cx && cx <= Size * 40 + 40 && Size * 40 - 40 <= cy && cy <= Size * 40) {
+                        pressed = true;
+                        MoveHero(field, gamer, coord[0] - 1, coord[1]);
+                    }
+                    if (Size * 40 + 40 < cx && cx <= Size * 40 + 80 && Size * 40 - 80 <= cy && cy < Size * 40 - 40) {
+                        pressed = true;
+                        MoveHero(field, gamer, coord[0], coord[1] - 1);
+                    }
+                    if (Size * 40 + 40 < cx && cx <= Size * 40 + 80 && Size * 40 - 40 <= cy && cy <= Size * 40) {
+                        pressed = true;
+                        MoveHero(field, gamer, coord[0], coord[1] + 1);
+                    }
+                    if (Size * 40 + 80 < cx && cx <= Size * 40 + 120 && Size * 40 - 40 <= cy && cy <= Size * 40) {
+                        pressed = true;
+                        MoveHero(field, gamer, coord[0] + 1, coord[1]);
+                    }
+                }
             }
-            if(event.key.code == sf::Keyboard::W && !pressed){
-                pressed = true;
-                MoveHero(field, gamer, coord[0], coord[1]-1);
+            if(event.type == Event::KeyPressed && !pressed) {
+                if(event.key.code == sf::Keyboard::A){
+                    pressed = true;
+                    MoveHero(field, gamer, coord[0]-1, coord[1]);
+                }
+                if(event.key.code == sf::Keyboard::W){
+                    pressed = true;
+                    MoveHero(field, gamer, coord[0], coord[1]-1);
+                }
+                if(event.key.code == sf::Keyboard::D && !pressed){
+                    pressed = true;
+                    MoveHero(field, gamer, coord[0]+1, coord[1]);
+                }
+                if(event.key.code == sf::Keyboard::S && !pressed){
+                    pressed = true;
+                    MoveHero(field, gamer, coord[0], coord[1]+1);
+                }
             }
-            if(event.key.code == sf::Keyboard::D && !pressed){
-                pressed = true;
-                MoveHero(field, gamer, coord[0]+1, coord[1]);
-            }
-            if(event.key.code == sf::Keyboard::S && !pressed){
-                pressed = true;
-                MoveHero(field, gamer, coord[0], coord[1]+1);
-            }
-            if(event.type == Event::KeyReleased){
+            if((event.type == Event::KeyReleased || event.type == Event::MouseButtonReleased) && pressed){
                 pressed = false;
-                Move::CheckObject(evil, thing, EVIL, THING, field);
+                CheckObject(evil, thing, EVIL, THING, field);
                 MoveEvil(field, evil, EVIL);
                 logger->Update();
             }

@@ -4,7 +4,7 @@
 #include <iostream>
 #include "Cell/Cell.h"
 
-#define Size 20
+#define Size 15
 
 class Field{
 private:

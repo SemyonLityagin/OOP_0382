@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cruelcookie/CLionProjects/Game2/Drawing.cpp" "/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles/Game.dir/Drawing.cpp.o"
+  "/home/cruelcookie/CLionProjects/Game2/HelloWindow.cpp" "/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles/Game.dir/HelloWindow.cpp.o"
   "/home/cruelcookie/CLionProjects/Game2/Moving/Moving.cpp" "/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles/Game.dir/Moving/Moving.cpp.o"
   "/home/cruelcookie/CLionProjects/Game2/log/ConsoleLogger.cpp" "/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles/Game.dir/log/ConsoleLogger.cpp.o"
   "/home/cruelcookie/CLionProjects/Game2/log/Decorator.cpp" "/home/cruelcookie/CLionProjects/Game2/cmake-build-debug/CMakeFiles/Game.dir/log/Decorator.cpp.o"

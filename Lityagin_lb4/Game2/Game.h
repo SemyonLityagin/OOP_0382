@@ -39,51 +39,39 @@
 template<typename R1, typename R2, typename R3>
 class Game{
 private:
-    R1 ruleBuilder;
-    R2 ruleEnemy;
-    R3 ruleThing;
+    Hero* gamer;
+    Field* field;
+    Unit** evil;
+    Thing** thing;
+    LoggerImplication* base;
+    Logger *logger;
+    int ENEMY;
+    int THING;
 public:
-    Game(R1 rule1, R2 rule2, R3 rule3) : ruleBuilder(rule1), ruleEnemy(rule2), ruleThing(rule3){};
-    void StartGame(){
-        //Music background;
-        //background.setLoop(true);
-        //background.openFromFile("../audio/Game.wav");
-        //background.play();
+    Game(R1 ruleBuilder, R2 ruleEnemy, R3 ruleThing){
+        //create field
+        field = ruleBuilder.GetFieldFromBuilder();
+
+        //check value of enemies and things
         if((ruleEnemy.GetValue() + ruleThing.GetValue()) >= (Size-2*Size/3)*(Size-2*Size/3)){
             ruleEnemy.SetValue((int)(Size*Size*4/100));
             ruleThing.SetValue((int)(Size*Size*2/100));
-            std::cout << ruleEnemy.GetValue();
         }
-        //SoundBuffer sound;
-        //sound.loadFromFile("../audio/footstep.wav");
-        //Sound footstep;
-        //footstep.setBuffer(sound);
 
-        //create field
-        MapBuilder* builder;
-        if(ruleBuilder.GetBuilderID()%2){
-            builder = new FirstMapBuilder();
-        }
-        else{
-            builder = new SecondMapBuilder();
-        }
-        auto director = MapDirector(builder);
-        director.ConstructMap();
-        Field* field = builder->ReturnField();
-        delete builder;
-
+        ENEMY = ruleEnemy.GetValue();
+        THING = ruleThing.GetValue();
         //create gamer
-        Hero* gamer = new Hero();
+        gamer = new Hero();
         field->GetCells()[Size-1][Size-2].SetObject(gamer);
         //create enemy
-        Unit** evil = CreateEvil(field->GetCells(), ruleEnemy.GetValue());
+        evil = CreateEvil(field->GetCells(), ENEMY, ruleEnemy);
         //create things
-        Thing** thing = CreateThing(field->GetCells(), ruleThing.GetValue());
-
+        thing = CreateThing(field->GetCells(), THING, ruleThing);
+    };
+    void StartGame(){
         //choose logger
         std::cout << "Выберите тип логгера" << std::endl;
         int type;
-        LoggerImplication* base;
         std::cin >> type;
         switch(type) {
             case 0: {
@@ -100,42 +88,17 @@ public:
                 base = new ConsoleLogger(log1);
             }
         }
-        Logger *logger = Logger::GetInstance(gamer, base);
+        logger = Logger::GetInstance(gamer, base);
         logger->Update();
 
-        Move::Movement(field, gamer, evil, thing, ruleEnemy.GetValue(), ruleThing.GetValue(), logger);
-
-        delete field;
-        for(int i = 0; i < ruleEnemy.GetValue(); i++){
-            delete evil[i];
-        }
-        delete [] evil;
-        for(int i = 0; i < ruleThing.GetValue(); i++){
-            delete thing[i];
-        }
-        delete [] thing;
-        delete gamer;
-        delete logger;
+        Move::Movement(field, gamer, evil, thing, ENEMY, THING, logger);
     };
-    Unit** CreateEvil(Cell** cell, int EVIL){
-        Unit** evil = new Unit*[EVIL];
-        auto* eyeFactory = new EyeFactory;
-        auto* entFactory = new EntFactory;
-        auto* spiderFactory = new SpiderFactory;
-        int direction;
+
+    Unit** CreateEvil(Cell** cell, int EVIL, R2 ruleEnemy){
+        Unit** evil = ruleEnemy.GetEnemy();
         int x = 0, y = 0;
         srand(time(NULL));
         for(int i = 0; i < EVIL; i++){
-            direction = rand()%9;
-            if(direction < 3){
-                evil[i] = eyeFactory->CreateUnit();
-            }
-            else if(direction < 6){
-                evil[i] = entFactory->CreateUnit();
-            }
-            else if(direction < 9){
-                evil[i] = spiderFactory->CreateUnit();
-            }
             while(!cell[x][y].IsMovable() || cell[x][y].GetObjectType() != empty) {
                 x = rand() % (Size - 2) + 1;
                 y = rand() % (Size - 2) + 1;
@@ -143,27 +106,13 @@ public:
             evil[i]->SetCoord(x, y);
             cell[x][y].SetObject(evil[i]);
         }
-        delete eyeFactory;
-        delete entFactory;
-        delete spiderFactory;
         return evil;
     };
 
-    Thing** CreateThing(Cell** cell, int THING){
-        Thing** thing = new Thing*[THING];
-        int direction;
+    Thing** CreateThing(Cell** cell, int THING, R3 ruleThing){
+        Thing** thing = ruleThing.GetThing();
         int x = 0, y = 0;
         for(int i = 0; i < THING; i++){
-            direction = rand()%9;
-            if(direction < 3){
-                thing[i] = new Candy();
-            }
-            else if(direction < 6){
-                thing[i] = new Axe();
-            }
-            else if(direction < 9){
-                thing[i] = new Coin();
-            }
             while(!cell[x][y].IsMovable() || cell[x][y].GetObjectType() != empty) {
                 x = rand() % (Size - 2) + 1;
                 y = rand() % (Size - 2) + 1;
@@ -172,6 +121,19 @@ public:
             cell[x][y].SetObject(thing[i]);
         }
         return thing;
+    }
+    ~Game(){
+        delete field;
+        for(int i = 0; i < ENEMY; i++){
+            delete evil[i];
+        }
+        delete [] evil;
+        for(int i = 0; i < THING; i++){
+            delete thing[i];
+        }
+        delete [] thing;
+        delete gamer;
+        delete logger;
     }
 };
 

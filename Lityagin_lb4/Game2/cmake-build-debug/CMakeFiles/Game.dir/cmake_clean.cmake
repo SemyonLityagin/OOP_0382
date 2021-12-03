@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/Drawing.cpp.o"
+  "CMakeFiles/Game.dir/HelloWindow.cpp.o"
   "CMakeFiles/Game.dir/Moving/Moving.cpp.o"
   "CMakeFiles/Game.dir/log/ConsoleLogger.cpp.o"
   "CMakeFiles/Game.dir/log/Decorator.cpp.o"

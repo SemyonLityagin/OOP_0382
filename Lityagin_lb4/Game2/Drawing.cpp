@@ -13,9 +13,26 @@ Drawing::Drawing() {
     textureObject[4].loadFromFile(AxePNG);
     textureObject[5].loadFromFile(CandyPNG);
     textureObject[6].loadFromFile(CoinPNG);
+    textureButton[0].loadFromFile(LeftPNG);
+    textureButton[1].loadFromFile(RightPNG);
+    textureButton[2].loadFromFile(UpPNG);
+    textureButton[3].loadFromFile(DownPNG);
 }
 
 void Drawing::DrawFieldOnWindow(Cell** cells, RenderWindow *window) {
+    sprite = Sprite(textureButton[0]);
+    sprite.setPosition(Size*40, Size*40-40);
+    window->draw(sprite);
+    sprite = Sprite(textureButton[3]);
+    sprite.setPosition(Size*40+40, Size*40-40);
+    window->draw(sprite);
+    sprite = Sprite(textureButton[1]);
+    sprite.setPosition(Size*40+40*2, Size*40-40);
+    window->draw(sprite);
+    sprite = Sprite(textureButton[2]);
+    sprite.setPosition(Size*40+40, Size*40-80);
+    window->draw(sprite);
+
     for(int i = 0; i < Size; i++){
         for(int j = 0; j < Size; j++){
             cellType = cells[i][j].GetType();
@@ -49,43 +66,4 @@ void Drawing::DrawFieldOnWindow(Cell** cells, RenderWindow *window) {
         }
     }
 }
-/*
-void Drawing::HelloWindow() {
-    Texture texture;
-    Texture texture2;
-    Sprite sprite1;
-    texture.loadFromFile(FloorPNG);
-    RenderWindow window(VideoMode(120, 80), "Це шо, тайм сквэр?!");
 
-    while(window.isOpen()){
-        for(int i = 0; i < 3; i++){
-            for(int j = 0; j < 2; j++){
-                sprite1 = Sprite(texture);
-                sprite1.setPosition(i * 40, j * 40);
-                window.draw(sprite1);
-            }
-        }
-        texture2.loadFromFile(PlayPNG);
-        sprite1 = Sprite(texture2);
-        sprite1.setPosition(40, 20);
-        window.draw(sprite1);
-        //window.clear();
-        sf::Event event;
-        while(window.pollEvent(event)){
-            if(event.type == sf::Event::Closed) {
-                window.close();
-            }
-            if (event.type == sf::Event::MouseButtonPressed)
-            {
-                if (event.mouseButton.button == sf::Mouse::Left)
-                {
-                    if(40 <= event.mouseButton.x <= 80 && 20 <= event.mouseButton.y <= 60 );
-                    Game game = Game();
-                    game.StartGame(10, 3);
-                }
-            }
-        }
-        window.display();
-    }
-}
-*/

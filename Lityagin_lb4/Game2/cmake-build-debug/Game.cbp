@@ -91,6 +91,12 @@
 		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Game.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/HelloWindow.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/cruelcookie/CLionProjects/Game2/HelloWindow.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="/home/cruelcookie/CLionProjects/Game2/Moving/Moving.cpp">
 			<Option target="Game"/>
 		</Unit>

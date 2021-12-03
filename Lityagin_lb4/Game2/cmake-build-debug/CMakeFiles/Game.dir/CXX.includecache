@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/cruelcookie/CLionProjects/Game2/Drawing.cpp
-Drawing.h
-/home/cruelcookie/CLionProjects/Game2/Drawing.h
-Game.h
-/home/cruelcookie/CLionProjects/Game2/Game.h
-
 /home/cruelcookie/CLionProjects/Game2/Drawing.h
 SFML/Graphics.hpp
 -
@@ -86,6 +80,20 @@ Drawing.h
 ./log/ConcreteLog.h
 /home/cruelcookie/CLionProjects/Game2/log/ConcreteLog.h
 
+/home/cruelcookie/CLionProjects/Game2/HelloWindow.cpp
+HelloWindow.h
+/home/cruelcookie/CLionProjects/Game2/HelloWindow.h
+
+/home/cruelcookie/CLionProjects/Game2/HelloWindow.h
+Game.h
+/home/cruelcookie/CLionProjects/Game2/Game.h
+./rules/RulesBuilder.h
+/home/cruelcookie/CLionProjects/Game2/rules/RulesBuilder.h
+rules/RulesThing.h
+/home/cruelcookie/CLionProjects/Game2/rules/RulesThing.h
+rules/RulesEnemy.h
+/home/cruelcookie/CLionProjects/Game2/rules/RulesEnemy.h
+
 /home/cruelcookie/CLionProjects/Game2/Moving/Moving.h
 ../map/MapBuilder/Field/Cell/Cell.h
 /home/cruelcookie/CLionProjects/Game2/map/MapBuilder/Field/Cell/Cell.h
@@ -149,18 +157,6 @@ iostream
 -
 Observer.h
 /home/cruelcookie/CLionProjects/Game2/log/Observer.h
-
-/home/cruelcookie/CLionProjects/Game2/main.cpp
-Game.h
-/home/cruelcookie/CLionProjects/Game2/Game.h
-./rules/RulesBuilder.h
-/home/cruelcookie/CLionProjects/Game2/rules/RulesBuilder.h
-Drawing.h
-/home/cruelcookie/CLionProjects/Game2/Drawing.h
-rules/RulesThing.h
-/home/cruelcookie/CLionProjects/Game2/rules/RulesThing.h
-rules/RulesEnemy.h
-/home/cruelcookie/CLionProjects/Game2/rules/RulesEnemy.h
 
 /home/cruelcookie/CLionProjects/Game2/map/Factory/EntFactory.h
 ../Units/Ent.h

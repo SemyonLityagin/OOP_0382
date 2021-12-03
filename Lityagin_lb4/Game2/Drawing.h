@@ -15,6 +15,11 @@
 #define WallPNG "../texture/CellWall.png"
 #define PlayPNG "../texture/Play.png"
 
+#define UpPNG "../texture/Up.png"
+#define DownPNG "../texture/Down.png"
+#define RightPNG "../texture/Right.png"
+#define LeftPNG "../texture/Left.png"
+
 #include <SFML/Graphics.hpp>
 #include "map/MapBuilder/Field/Cell/Cell.h"
 #include "map/MapBuilder/Field/Field.h"
@@ -25,6 +30,7 @@ class Drawing{
 private:
     Texture textureObject[7];
     Texture textureCell[4];
+    Texture textureButton[4];
     Sprite sprite;
     CellTypes cellType;
     ObjectType objectType;
@@ -33,7 +39,6 @@ private:
 public:
     Drawing();
     void DrawFieldOnWindow(Cell** cells, RenderWindow *window);
-    static void HelloWindow();
 };
 
 #endif //GAME_DRAWING_H
