@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Game" targetName="Game" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1286f1db-ad74-4e74-95b8-5c06e417f3c6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1zBSfwmJuG517nXKF3DHZLOwujK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/map/Units" />
+      <recent name="$PROJECT_DIR$/texture" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Game" TARGET_NAME="Game" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Game" RUN_TARGET_NAME="Game">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1286f1db-ad74-4e74-95b8-5c06e417f3c6" name="Changes" comment="" />
+      <created>1633620095125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633620095125</updated>
+      <workItem from="1633620097167" duration="2454000" />
+      <workItem from="1633626926883" duration="30256000" />
+      <workItem from="1633710154542" duration="3027000" />
+      <workItem from="1633714662355" duration="18278000" />
+      <workItem from="1633941880119" duration="6851000" />
+      <workItem from="1634471447087" duration="9664000" />
+      <workItem from="1634579207843" duration="3790000" />
+      <workItem from="1634585727711" duration="3915000" />
+      <workItem from="1634594327387" duration="604000" />
+      <workItem from="1634595054988" duration="1414000" />
+      <workItem from="1634641275029" duration="4000" />
+      <workItem from="1634844555500" duration="19000" />
+      <workItem from="1634847806236" duration="11664000" />
+      <workItem from="1634918820188" duration="35842000" />
+      <workItem from="1634971941502" duration="814000" />
+      <workItem from="1635445415955" duration="14892000" />
+      <workItem from="1635523595697" duration="5343000" />
+      <workItem from="1635533469414" duration="2306000" />
+      <workItem from="1635536050600" duration="4186000" />
+      <workItem from="1636398314395" duration="6406000" />
+      <workItem from="1636490576877" duration="3245000" />
+      <workItem from="1636532388308" duration="3153000" />
+      <workItem from="1636581941056" duration="3229000" />
+      <workItem from="1636618736652" duration="18197000" />
+      <workItem from="1636655461853" duration="9142000" />
+      <workItem from="1636731887929" duration="8808000" />
+      <workItem from="1636749575938" duration="3851000" />
+      <workItem from="1636756333002" duration="594000" />
+      <workItem from="1636968346526" duration="10499000" />
+      <workItem from="1637178118613" duration="8997000" />
+      <workItem from="1637341780799" duration="6113000" />
+      <workItem from="1637791734629" duration="11000" />
+      <workItem from="1637834566368" duration="1331000" />
+      <workItem from="1637848507540" duration="9933000" />
+      <workItem from="1637859358404" duration="31000" />
+      <workItem from="1637859481499" duration="1523000" />
+      <workItem from="1637948129937" duration="5102000" />
+      <workItem from="1638547228078" duration="17743000" />
+      <workItem from="1639083340033" duration="3974000" />
+      <workItem from="1639147408413" duration="20210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
